@@ -4,7 +4,6 @@ import Nawigacja from "./components/Nawigacja";
 import KategoriaBoczna from "./components/KategoriaBoczna";
 import ListaKsiazek from "./components/ListaKsiazek";
 import SzczegolyKsiazki from "./components/SzczegolyKsiazki";
-import Wyszukiwarka from ".compoments/Wyszukiwarka";
 import { wszystkieKsiazki } from "./data/daneKsiazek"; 
 
 function App() {
