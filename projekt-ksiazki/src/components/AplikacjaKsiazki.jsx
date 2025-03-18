@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import KategoriaBoczna from "./KategoriaBoczna";
 import ListaKsiazek from "./ListaKsiazek";
+import Wyszukiwarka from "./Wyszukiwarka";
 import "../styles/style.css";
 
 const AplikacjaKsiazki = () => {

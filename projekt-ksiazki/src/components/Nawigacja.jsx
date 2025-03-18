@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Wyszukiwarka from "./Wyszukiwarka";
 import "../styles/style.css";
 
 const Nawigacja = () => {
   return (
     <nav className="nawigacja">
-      <ul className="menu-gorne">
+      <ul>
         <li><Link to="/">Strona Główna</Link></li>
         <li><Link to="/o-nas">O Nas</Link></li>
         <li className="dropdown">

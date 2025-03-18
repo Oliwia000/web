@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Wyszukiwarka from "./Wyszukiwarka";
 
 function KategoriaBoczna({ wybierzKategorie }) {
   const [aktywnaKategoria, setAktywnaKategoria] = useState(null);

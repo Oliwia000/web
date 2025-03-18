@@ -4,7 +4,8 @@ import Nawigacja from "./components/Nawigacja";
 import KategoriaBoczna from "./components/KategoriaBoczna";
 import ListaKsiazek from "./components/ListaKsiazek";
 import SzczegolyKsiazki from "./components/SzczegolyKsiazki";
-import { wszystkieKsiazki } from "./data/daneKsiazek"; // Załaduj dane książek
+import Wyszukiwarka from ".compoments/Wyszukiwarka";
+import { wszystkieKsiazki } from "./data/daneKsiazek"; 
 
 function App() {
   const [wybranaKategoria, setWybranaKategoria] = useState(null);

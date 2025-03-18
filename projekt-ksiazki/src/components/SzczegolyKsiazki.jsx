@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { wszystkieKsiazki } from "../data/daneKsiazek"; // Załaduj dane książek
+import Wyszukiwarka from "./Wyszukiwarka";
+import { wszystkieKsiazki } from "../data/daneKsiazek"; 
 import "../styles/style.css";
 
 const SzczegolyKsiazki = () => {
