@@ -1,198 +1,169 @@
-/* Ustawienia ogólne */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Górne menu - Nawigacja */
-  .nawigacja {
-    background-color: #333;
-    color: white;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .menu-gorne {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    list-style: none;
-    margin: 0;
-  }
-  
-  .menu-gorne li {
-    margin: 0 20px;
-    position: relative;
-  }
-  
-  .menu-gorne a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-  }
-  
-  .menu-gorne a:hover {
-    background-color: #444;
-    border-radius: 4px;
-  }
-  
-  /* Dropdown - Wydarzenia */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 30px;
-    left: 0;
-    background-color: #333;
-    min-width: 180px;
-    z-index: 100;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown-content li {
-    padding: 8px 10px;
-  }
-  
-  .dropdown-content a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #555;
-    border-radius: 4px;
-  }
-  
-  /* Sekcja boczna - Kategorie książek */
-  .menu-boczne {
-    width: 250px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .menu-boczne h2 {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-    font-weight: bold;
-  }
-  
-  .menu-boczne ul {
-    list-style: none;
-  }
-  
-  .menu-boczne li {
-    padding: 8px;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  .menu-boczne li:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .menu-boczne .active-category {
-    background-color: #ddd;
-  }
-  
-  /* Main content - Książki */
-  .main-content {
-    display: flex;
-    padding: 20px;
-    gap: 20px;
-    flex: 1;
-  }
-  
-  .lista-ksiazek {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    width: 100%;
-  }
-  
-  .lista-ksiazek h2 {
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .ksiazka {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-  }
-  
-  .ksiazka:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .ksiazka img {
-    max-width: 100%;
-    border-radius: 4px;
-    margin-bottom: 15px;
-  }
-  
-  .ksiazka h4 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .ksiazka p {
-    color: #555;
-    margin-bottom: 15px;
-  }
-  
-  .ksiazka a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-  }
-  
-  .ksiazka a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Responsywność */
-  @media (max-width: 1024px) {
-    .main-content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .menu-boczne {
-      width: 100%;
-      box-shadow: none;
-      margin-bottom: 20px;
-    }
-  
-    .lista-ksiazek {
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .menu-gorne li {
-      margin: 0 10px;
-    }
-  
-    .lista-ksiazek {
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    }
-  }
-  
+/* Podstawowe style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Nagłówek z napisem */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+/* Górne menu */
+.menu-and-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-and-search nav {
+  flex: 1;
+}
+
+.menu-and-search input {
+  width: 250px;
+  padding: 8px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+/* Nawigacja */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+/* Kategoria boczna */
+.kategoria-content {
+  display: flex;
+}
+
+.kategoria-content .kategoria-boczna {
+  width: 250px;
+  margin-right: 20px;
+}
+
+/* Lista książek */
+.lista-ksiazek {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.ksiazka {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.ksiazka img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ksiazka h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.ksiazka p {
+  font-size: 14px;
+  color: #666;
+}
+
+.ksiazka:hover {
+  transform: translateY(-5px);
+}
+
+.ksiazka a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.ksiazka a:hover {
+  color: #0056b3;
+}
+
+/* Zwiększenie rozmiaru zdjęcia na stronie szczegółów książki */
+.szczegoly-ksiazki img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.szczegoly-ksiazki .opis {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.szczegoly-ksiazki .zobacz-wiecej-btn {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s;
+}
+
+.szczegoly-ksiazki .zobacz-wiecej-btn:hover {
+  background-color: #e2e6ea;
+}
+
+/* Nowe style dla zdjęcia przed kliknięciem 'Zobacz więcej' */
+.ksiazka img {
+  max-width: 150px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.ksiazka img:hover {
+  transform: scale(1.1);
+}
+
+/* Wyszukiwarka */
+.wyszukiwarka input {
+  width: 250px;
+  padding: 8px;
+  font-size: 16px;
+}
