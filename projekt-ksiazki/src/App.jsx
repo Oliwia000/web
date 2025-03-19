@@ -4,14 +4,14 @@ import Nawigacja from "./components/Nawigacja";
 import KategoriaBoczna from "./components/KategoriaBoczna";
 import ListaKsiazek from "./components/ListaKsiazek";
 import SzczegolyKsiazki from "./components/SzczegolyKsiazki";
-import Wyszukiwarka from "./components/Wyszukiwarka"; // Zaimportuj komponent Wyszukiwarka
-import { wszystkieKsiazki } from "./data/daneKsiazek"; // Załaduj dane książek
+import Wyszukiwarka from "./components/Wyszukiwarka"; 
+import { wszystkieKsiazki } from "./data/daneKsiazek"; 
 
 function App() {
   const [wybranaKategoria, setWybranaKategoria] = useState(null);
-  const [query, setQuery] = useState(""); // Dodaj stan do przechowywania zapytania
+  const [query, setQuery] = useState(""); 
 
-  // Funkcja do obsługi wyszukiwania
+  
   const handleWyszukaj = (searchQuery) => {
     setQuery(searchQuery);
   };
@@ -30,12 +30,12 @@ function App() {
     <Router>
       <div className="app-container">
         <header>
-          <h1>Znajdź co dla siebie</h1> {/* Nowy nagłówek */}
+          <h1>Znajdź coś dla siebie</h1> {}
         </header>
         <div className="main-content">
           <div className="menu-and-search">
             <Nawigacja />
-            {/* Wyszukiwarka na prawej stronie */}
+            {}
             <Wyszukiwarka onWyszukaj={handleWyszukaj} />
           </div>
           <div className="kategoria-content">
