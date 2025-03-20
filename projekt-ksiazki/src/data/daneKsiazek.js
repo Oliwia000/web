@@ -227,7 +227,7 @@ export const wszystkieKsiazki = [
     wydawnictwo: "Zielona Sowa",
     kategorie: ["Literatura dziecięca"],
     opis: "Dziewczynka odkrywa tajemniczy ogród...",
-    okladka: "/images/ogrod.jpg",
+    okladka: "/images/tajemniczyogród.jpg",
   },
   {
     id: 25,
@@ -236,7 +236,7 @@ export const wszystkieKsiazki = [
     wydawnictwo: "Nasza Księgarnia",
     kategorie: ["Fantasy", "Literatura dziecięca"],
     opis: "Dwóch braci trafia do magicznego świata Nangijali...",
-    okladka: "/images/bracia.jpg",
+    okladka: "/images/bracialwie.jpg",
   },
   {
     id: 26,
@@ -256,7 +256,7 @@ export const wszystkieKsiazki = [
     cykl: "",
     kategorie: ["Literatura obyczajowa", "Romans"],
     opis: "Historia miłości, rodzinnych tajemnic i dramatów...",
-    okladka: "/images/zimowy_ogrod.jpg",
+    okladka: "/images/ogród.jpg",
   },
   {
     id: 28,
