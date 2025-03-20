@@ -16,7 +16,7 @@ export const wszystkieKsiazki = [
       wydawnictwo: "Prószyński i S-ka",
       kategorie: ["Horror"],
       opis: "Jack Torrance zostaje zimowym dozorcom w hotelu Overlook...",
-      okladka: "/images/lsnienie.jpg",
+      okladka: "/images/lśnienie.jpg",
     },
     {
       id: 3,
@@ -150,7 +150,7 @@ export const wszystkieKsiazki = [
     cykl: "Lena (tom 1)",
     kategorie: ["Kryminał", "Sensacja", "Thriller"],
     opis: "Zostały mu tylko lalki. Tylko one się liczą...",
-    okladka: "/images/lalka.jpg",
+    okladka: "/images/lalek.jpg",
   },
   {
     id: 17,
@@ -170,7 +170,7 @@ export const wszystkieKsiazki = [
     cykl: "Krew i popiół (tom 6)",
     kategorie: ["Fantasy", "Science Fiction"],
     opis: "In the shadows and flames, Primals will fall…",
-    okladka: "/images/primal.jpg",
+    okladka: "/images/bone.jpg",
   },
   {
     id: 19,
@@ -199,7 +199,7 @@ export const wszystkieKsiazki = [
     cykl: "Opowieści z Narnii",
     kategorie: ["Fantasy", "Literatura dziecięca"],
     opis: "Czwórka dzieci przenosi się do magicznej Narnii...",
-    okladka: "/images/narnia.jpg",
+    okladka: "/images/opowieścistaraszafa.jpg",
   },
   {
     id: 22,
@@ -208,7 +208,7 @@ export const wszystkieKsiazki = [
     wydawnictwo: "Wilga",
     kategorie: ["Fantasy", "Literatura dziecięca"],
     opis: "Dziewczynka imieniem Dorotka trafia do magicznej krainy Oz...",
-    okladka: "/images/oz.jpg",
+    okladka: "/images/krainyoz.jpg",
   },
   {
     id: 23,
@@ -218,7 +218,7 @@ export const wszystkieKsiazki = [
     cykl: "Harry Potter (tom 1)",
     kategorie: ["Fantasy", "Literatura młodzieżowa"],
     opis: "Młody czarodziej odkrywa świat magii i przyjaźni...",
-    okladka: "/images/harry_potter.jpg",
+    okladka: "/images/kamieńfilozoficzny.jpg",
   },
   {
     id: 24,
@@ -276,6 +276,6 @@ export const wszystkieKsiazki = [
     cykl: "",
     kategorie: ["Powieść historyczna", "Literatura obyczajowa"],
     opis: "Kiedy wojna staje się tłem dla najważniejszej książki w życiu...",
-    okladka: "/images/zlodziejka_ksiazek.jpg",
+    okladka: "/images/złodziejka.jpg",
   },
 ];
