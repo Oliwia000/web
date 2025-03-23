@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Wyszukiwarka from "./Wyszukiwarka";
-import "../styles/style.css";
 
-const Nawigacja = () => {
+const Nawigacja = ({ onWyszukaj }) => {
   return (
     <nav className="nawigacja">
       <ul>
@@ -14,10 +13,10 @@ const Nawigacja = () => {
           <ul className="dropdown-content">
             <li><Link to="/wydarzenia/targi-ksiazki">Targi Książki</Link></li>
             <li><Link to="/wydarzenia/inne">Inne Wydarzenia</Link></li>
-            <li><Link to="/wydarzenia/minione">Minione Wydarzenia</Link></li>
           </ul>
         </li>
       </ul>
+      <Wyszukiwarka onWyszukaj={onWyszukaj} />
     </nav>
   );
 };

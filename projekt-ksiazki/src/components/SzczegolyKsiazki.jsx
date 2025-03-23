@@ -2,26 +2,26 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { wszystkieKsiazki } from "../data/daneKsiazek";
 
-function SzczegolyKsiazki() {
+const SzczegolyKsiazki = () => {
   const { id } = useParams();
-  const ksiazka = wszystkieKsiazki.find((ksiazka) => ksiazka.id === parseInt(id));
+  const ksiazka = wszystkieKsiazki.find((k) => k.id === parseInt(id));
 
   if (!ksiazka) {
-    return <div>Nie znaleziono książki</div>;
+    return <h2>Nie znaleziono książki.</h2>;
   }
 
   return (
     <div className="szczegoly-ksiazki">
-      <h2>{ksiazka.tytul}</h2>
       <img src={ksiazka.okladka} alt={ksiazka.tytul} />
-      <div className="opis">
+      <div className="info">
+        <h2>{ksiazka.tytul}</h2>
+        <p><strong>Autor:</strong> {ksiazka.autor}</p>
+        <p><strong>Wydawnictwo:</strong> {ksiazka.wydawnictwo}</p>
+        <p><strong>Cykl:</strong> {ksiazka.cykl || "Brak"}</p>
         <p>{ksiazka.opis}</p>
-        <a href="#" className="zobacz-wiecej-btn">
-          Zobacz więcej
-        </a>
       </div>
     </div>
   );
-}
+};
 
 export default SzczegolyKsiazki;

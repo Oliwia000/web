@@ -1,22 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nawigacja from "./components/Nawigacja";
 import KategoriaBoczna from "./components/KategoriaBoczna";
 import ListaKsiazek from "./components/ListaKsiazek";
 import SzczegolyKsiazki from "./components/SzczegolyKsiazki";
-import Wyszukiwarka from "./components/Wyszukiwarka"; 
-import { wszystkieKsiazki } from "./data/daneKsiazek"; 
+import { wszystkieKsiazki } from "./data/daneKsiazek";
 
 function App() {
   const [wybranaKategoria, setWybranaKategoria] = useState(null);
-  const [query, setQuery] = useState(""); 
+  const [query, setQuery] = useState("");
+  const [ksiazkiLosowe, setKsiazkiLosowe] = useState([]);
 
-  
+  useEffect(() => {
+    const shuffled = [...wszystkieKsiazki].sort(() => 0.5 - Math.random());
+    setKsiazkiLosowe(shuffled.slice(0, 10));
+  }, []);
+
   const handleWyszukaj = (searchQuery) => {
     setQuery(searchQuery);
   };
 
-  // Filtruj książki na podstawie wyszukiwania i wybranej kategorii
   const ksiazkiDoWyswietlenia = wszystkieKsiazki.filter((ksiazka) => {
     return (
       (ksiazka.tytul.toLowerCase().includes(query.toLowerCase()) ||
@@ -29,25 +32,14 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <header>
-          <h1>Znajdź coś dla siebie</h1> {}
-        </header>
+        <div className="header-banner">Znajdź coś dla siebie</div>
+        <Nawigacja onWyszukaj={handleWyszukaj} />
         <div className="main-content">
-          <div className="menu-and-search">
-            <Nawigacja />
-            {}
-            <Wyszukiwarka onWyszukaj={handleWyszukaj} />
-          </div>
-          <div className="kategoria-content">
-            <KategoriaBoczna wybierzKategorie={setWybranaKategoria} />
-            <Routes>
-              <Route
-                path="/"
-                element={<ListaKsiazek ksiazki={ksiazkiDoWyswietlenia} wybranaKategoria={wybranaKategoria} />}
-              />
-              <Route path="/ksiazka/:id" element={<SzczegolyKsiazki />} />
-            </Routes>
-          </div>
+          <KategoriaBoczna wybierzKategorie={setWybranaKategoria} />
+          <Routes>
+            <Route path="/" element={<ListaKsiazek ksiazki={ksiazkiLosowe} />} />
+            <Route path="/ksiazka/:id" element={<SzczegolyKsiazki />} />
+          </Routes>
         </div>
       </div>
     </Router>
