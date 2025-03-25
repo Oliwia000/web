@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const shuffled = [...wszystkieKsiazki].sort(() => 0.5 - Math.random());
-    setKsiazkiLosowe(shuffled.slice(0, 10));
+    setKsiazkiLosowe(shuffled.slice(0, 12)); // 12 losowych książek
   }, []);
 
   const handleWyszukaj = (searchQuery) => {
@@ -37,7 +37,7 @@ function App() {
         <div className="main-content">
           <KategoriaBoczna wybierzKategorie={setWybranaKategoria} />
           <Routes>
-            <Route path="/" element={<ListaKsiazek ksiazki={ksiazkiLosowe} />} />
+            <Route path="/" element={<ListaKsiazek ksiazki={ksiazkiDoWyswietlenia} />} />
             <Route path="/ksiazka/:id" element={<SzczegolyKsiazki />} />
           </Routes>
         </div>
