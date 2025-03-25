@@ -60,6 +60,12 @@ body {
   width: 250px;
 }
 
+/* Układ strony (z menu bocznym i książkami obok siebie) */
+.main-content {
+  display: flex;
+  margin-top: 20px;
+}
+
 /* Menu boczne – kategorie */
 .menu-boczne {
   width: 250px;
@@ -82,85 +88,12 @@ body {
   color: white;
 }
 
-/* Książki – 6 w rzędzie */
+/* Książki – układ obok menu bocznego */
 .lista-ksiazek {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
-}
-
-.ksiazka {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.ksiazka img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Strona szczegółów książki */
-.szczegoly-ksiazki {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  padding: 20px;
-}
-
-.szczegoly-ksiazki img {
-  width: 300px;
-  height: auto;
-}
-
-.szczegoly-ksiazki .info {
   flex: 1;
-}
-/* Style ogólne */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-/* Menu główne */
-.nawigacja {
-  background-color: #A0522D;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Styl menu bocznego */
-.menu-boczne {
-  width: 250px;
-  background: #f8f8f8;
-  padding: 15px;
-}
-
-.menu-boczne ul {
-  list-style: none;
-  padding: 0;
-}
-
-.menu-boczne li {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.menu-boczne li:hover {
-  background-color: gray;
-  color: white;
-}
-
-/* Wyświetlanie książek w 6 kolumnach */
-.lista-ksiazek {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
 }
 
 .ksiazka {
@@ -183,11 +116,29 @@ body {
   padding: 20px;
 }
 
+.szczegoly-ksiazki .info {
+  flex: 1;
+}
+
 .szczegoly-ksiazki img {
   width: 300px;
   height: auto;
 }
 
-.szczegoly-ksiazki .info {
-  flex: 1;
+.category-links {
+  margin-top: 20px;
+}
+
+.category-links button {
+  background-color: #8B4513;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-links button:hover {
+  background-color: #D2691E;
 }
