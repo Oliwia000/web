@@ -122,13 +122,13 @@ export const wszystkieKsiazki = [
 
     {
       id: 26,
-      tytul: "W mroku",
-      autor: "Magda Stachula",
-      wydawnictwo: "Czarna Owca",
+      tytul: "Błyski w mroku",
+      autor: "Stacy Willingham",
+      wydawnictwo: "Agora",
       cykl: "",
-      kategorie: ["Thriller", "Sensacja"],
-      opis: "Bohaterka wplątuje się w mroczny świat manipulacji...",
-      okladka: "/images/wmroku.jpg",
+      kategorie: ["Thriller", "Sensacja","Kryminał"],
+      opis: "Potwory nie czają się w mroku. Prawdziwe potwory żyją wśród nas.==Gdy Chloe Davis miała dwanaście lat, w jej rodzinnym miasteczku na amerykańskim Głębokim Południu zaczęły znikać nastoletnie dziewczęta. Nim parne luizjańskie lato dobiegło końca, ojciec Chloe został zatrzymany w związku z zaginięciami, a cała ich dotąd szczęśliwa rodzina dosłownie rozpadła się na drobne kawałki.==Teraz, 20 lat później, Chloe pracuje jako psychoterapeutka i jest już prawie gotowa uznać, że jej życie wróciło na właściwe tory. Ale wystarczy jeden telefon od dziennikarza, który zadaje niewygodne pytania o przeszłość, aby koszmar ożył na nowo. Zbliża się 20 rocznica zaginięć, a Chloe będzie musiała zweryfikować, co wówczas było prawdą, a co jedynie wytworem dziecięcej wyobraźni. I jakie kształty tak naprawdę kryły się w mroku otaczającym jej rodzinny dom…==„Błyski w mroku” to nastrojowy psychologiczny thriller, pełen kłamstw i rodzinnych sekretów. Prawa do jego ekranizacji jeszcze przed premierą kupiła nagrodzona Oscarem aktorka Emma Stone, a prace nad serialem rozpoczęła platforma HBO Max. ",
+      okladka: "/images/blyskiwmroku.jpg",
     },
 
 
@@ -173,12 +173,12 @@ export const wszystkieKsiazki = [
     },
     {
       id: 15,
-      tytul: "Oblężenie",
-      autor: "Aleksander Kamieński",
-      wydawnictwo: "Znak",
+      tytul: "August",
+      autor: "John Williams",
+      wydawnictwo: "Wydawnictwo Filtry",
       kategorie: ["Powieść historyczna"],
-      opis: "Obrona miasta przez polskich żołnierzy w trakcie II wojny światowej...",
-      okladka: "/images/oblezenie.jpg",
+      opis: "Portretując pierwszego rzymskiego cesarza, Williams unika epickiego rozmachu w hollywoodzkim stylu i oddaje prowadzenie opowieści samym bohaterom. Wśród narratorów są mistrzowie retoryki, tacy jak Cyceron i Horacy, ale również żołnierze, urzędnicy i prości obywatele starożytnego Rzymu, których głosy, poznawane przez nas w pamiętnikach, listach, dokumentach, pisarz stara się odtworzyć w całej różnorodności – tak byśmy mogli odczuć „żywą obecność” istniejących przed wiekami postaci.==W gruncie rzeczy „August” ma wiele wspólnego ze „Stonerem”. Obie powieści opisują biografię pojedynczego człowieka, a ich głównym tematem jest walka o władzę, choć prowadzona na różną skalę. W „Auguście” historię o wielkiej polityce Williams podszywa intymną opowieścią o życiu rodzinnym i miłości ojca do córki, poruszając nie tylko nasz intelekt, lecz również emocje. Żal nam Oktawiusza, który jako niepozorny dziewiętnastolatek musi podjąć wyzwanie losu i przejąć rządy w republice, współodczuwamy z jego córką Julią, gdy ta odkrywa swoją cielesność i podejmuje emancypacyjne wysiłki. Niestety – jak zauważa w posłowiu tłumacz Williamsa, Maciej Stroiński: „Polityka, szczęście rodzinne i święty spokój okazują się w »Auguście« nie do pogodzenia”. orma HBO Max. .",
+      okladka: "/images/auust.jpg",
     },
   
 //Fantasy
@@ -214,7 +214,7 @@ export const wszystkieKsiazki = [
   autor: "Rick Riordan",
   wydawnictwo: "Galeria Książki",
   cykl: " Percy Jackson i Bogowie Olimpijscy (tom 3) " ,
-  kategorie: [ "Literatura młodzieżowa"],
+  kategorie: ["Literatura młodzieżowa"],
   opis: "Kiedy Percy Jackson dostaje od swojego najlepszego kumpla Grovera pilną wiadomość z prośbą o pomoc, natychmiast przygotowuje się do walki. Przyjaciele ruszają na ratunek i odkrywają, że Grover spotkał kogoś wyjątkowego: dwoje potężnych dzieci półkrwi o nieznanym pochodzeniu. Ale to nie wszystko, co ich czeka. Król tytanów Kronos uknuł najbardziej podstępny ze swoich planów, a młodzi herosi mają być jego ofiarami.Nie tylko oni są w niebezpieczeństwie. Przebudził się starożytny potwór zdolny zniszczyć Olimp, a Artemida, jedyna bogini, która potrafi go wytropić, zaginęła. Percy i przyjaciele wraz z Łowczyniami Artemidy mają tylko tydzień, żeby odnaleźć porwaną boginię i rozwiązać tajemnicę potwora, na którego polowała. A po drodze będą się musieli zmierzyć z najniebezpieczniejszym wyzwaniem: mrożącą krew w żyłach klątwą tytana. ",
   okladka: "/images/klątwatytana.jpg",
 },
