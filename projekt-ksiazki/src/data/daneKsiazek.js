@@ -1,4 +1,6 @@
 export const wszystkieKsiazki = [
+
+
     // 📖 HORROR 📖
     {
       id: 1,
@@ -20,12 +22,12 @@ export const wszystkieKsiazki = [
     },
     {
       id: 3,
-      tytul: "Pięć",
+      tytul: "Haar",
       autor: "David Sodergren",
       wydawnictwo: "Akurat",
       kategorie: ["Horror"],
       opis: "Grupa przyjaciół w górach staje w obliczu przerażających zjawisk...",
-      okladka: "/images/piec.jpg",
+      okladka: "/images/haar.jpg",
     },
     {
       id: 4,
@@ -38,32 +40,34 @@ export const wszystkieKsiazki = [
     },
     {
       id: 5,
-      tytul: "Miasteczko",
+      tytul: "Miasto",
       autor: "Dean Koontz",
       wydawnictwo: "Albatros",
-      kategorie: ["Horror"],
-      opis: "Mieszkańcy pewnego miasteczka zaczynają znikać w niewyjaśnionych okolicznościach...",
-      okladka: "/images/miasteczko.jpg",
+      kategorie: ["Horror","Sensacja", "Thriller"],
+      opis: " Dean Koontz odsłania blaski i cienie wielkiego miasta .Jonah Kirk dorastał w niezwykłej rodzinie – jego matka jest wybitną śpiewaczką, dziadek – światowej sławy pianistą. On sam jest muzycznym geniuszem, który właśnie zaczął odkrywać swoje umiejętności i przy okazji wpadł w niebezpieczne towarzystwo. Przysparzając sobie wrogów i, niespodziewanie, nowych przyjaciół.",
+      okladka: "/images/miasto.jpg",
     },
   
+
+
     // 🔍 KRYMINAŁ 🔍
     {
       id: 6,
       tytul: "Dziewczyna z pociągu",
       autor: "Paula Hawkins",
-      wydawnictwo: "Dolnośląskie",
+      wydawnictwo: "Świat Książkie",
       kategorie: ["Kryminał", "Thriller"],
-      opis: "Rachel staje się świadkiem tajemniczego zniknięcia...",
-      okladka: "/images/dziewczyna.jpg",
+      opis: "Rachel każdego ranka dojeżdża do pracy tym samym pociągiem. Wie, że pociąg zawsze zatrzymuje się przed tym samym semaforem, dokładnie naprzeciwko szeregu domów.  Zaczyna się jej nawet wydawać, że zna ludzi, którzy mieszkają w jednym z nich. Uważa, że prowadzą doskonałe życie. Gdyby tylko mogła być tak szczęśliwa jak oni.. I nagle widzi coś wstrząsającego. Widzi tylko przez chwilę, bo pociąg rusza, ale to wystarcza. Wszystko się zmienia. Rachel ma teraz okazję stać się częścią życia ludzi, których widywała jedynie z daleka. Teraz się przekonają, że jest kimś więcej niż tylko dziewczyną z pociągu.",
+      okladka: "/images/pociąg.jpg",
     },
     {
       id: 7,
       tytul: "W pułapce",
-      autor: "Harlan Coben",
-      wydawnictwo: "Albatros",
-      kategorie: ["Kryminał", "Thriller"],
-      opis: "Mężczyzna próbuje rozwikłać tajemnicze zaginięcie swojej dziewczyny...",
-      okladka: "/images/w_pulapce.jpg",
+      autor: "Magda Stachula",
+      wydawnictwo: "Znak Literanova",
+      kategorie: ["Kryminał", "Thriller","Sensacja"],
+      opis: "Klara budzi się rano na klatce schodowej. Nie pamięta, co się działo w nocy, nie wie, jak wróciła do domu. Z przerażeniem orientuje się, że od imprezy, na którą wyszła w sobotę, minęły dwa dni.  Odkrywa dziwne ślady na swoim ciele. A później dowiaduje się, że parę miesięcy wcześniej inną kobietę spotkało coś bardzo podobnego. Postanawia się z nią skontaktować.  I wtedy ktoś podrzuca jej dziwny prezent.   -  Co stało się z tamtą dziewczyną?  - Czy Klara będzie następna?  - I co tak naprawdę jej grozi?   Mistrzyni thrillera psychologicznego wraca z nową powieścią, która przeraża i uzależnia jak nigdy.",
+      okladka: "/images/pułapce.jpg",
     },
     {
       id: 8,
@@ -71,48 +75,50 @@ export const wszystkieKsiazki = [
       autor: "Eva García Sáenz de Urturi",
       wydawnictwo: "Muza",
       cykl: "Trylogia Białego Miasta (tom 1)",
-      kategorie: ["Kryminał"],
-      opis: "Detektyw próbuje rozwikłać zagadkę serii morderstw w Hiszpanii...",
-      okladka: "/images/cisza.jpg",
+      kategorie: ["Kryminał", "Thriller"],
+      opis: "Pierwsza część fenomenalnej „Trylogii Białego Miasta”, pełnej mrocznych rodzinnych tajemnic, baskijskiej kultury i tradycji. Mieszkańcami hiszpańskiej Vitorii wstrząsa wiadomość o podwójnym morderstwie, łudząco podobnym do brutalnych seryjnych zbrodni sprzed dwudziestu lat. W tym samym czasie na swoją pierwszą przepustkę z więzienia ma wyjść skazany za tamte zabójstwa Tasio Ortiz de Zárate. Wracają stare obawy i strach, ludzi zaczyna ogarniać przerażenie. Unai López de Ayala, „Kraken”, śledczy specjalizujący się w profilowaniu kryminalnym, stara się zapobiec kolejnym zabójstwom. Jego metody pracy nie podobają się Albie, podkomisarz, z którą utrzymuje dwuznaczne relacje… Rozpoczyna się wyścig z czasem, niebezpieczeństwo czai się za każdym rogiem, a każdy dzień przynosi kolejny zwrot w śledztwie.Seryjny morderca dbający o każdy szczegół makabrycznych zbrodni i profiler, który potrafi dotrzeć do najmroczniejszych zakamarków ludzkiego umysłu. Który z nich wyjdzie z tego pojedynku zwycięsko? -„Fascynowała mnie dziwna symetria wydarzeń. Podwójne ofiary, w wieku kończącym się na zero albo na pięć… Zabójca i policjant o identycznym wyglądzie… To, że morderstwa ustały, kiedy Tasio trafił do więzienia, i to, że zostały wznowione, kiedy miał z niego wyjść… Fascynowała mnie i – przyznam szczerze – spędzała mi sen z powiek”. ",
+      okladka: "/images/ciszamiasta.jpg",
     },
     {
       id: 9,
-      tytul: "Skradzione życie",
-      autor: "Sophie Hannah",
-      wydawnictwo: "Otwarte",
-      cykl: "Hercule Poirot (tom 45)",
-      kategorie: ["Kryminał"],
-      opis: "Poirot rozwiązuje zagadkę zaginięcia mężczyzny i morderstwa...",
-      okladka: "/images/skradzione.jpg",
+      tytul: "Dublerka",
+      autor: "Sophie Hannah , Clare Mackintosh ",
+      wydawnictwo: ": Albatros",
+      kategorie: ["Kryminał","Sensacja"],
+      opis: "Wiem, co zrobiłaś=Wiem, kim jesteś=Znam cię=Najbardziej prestiżowa akademia sztuk scenicznych w Londynie.=Główna rola w szkolnym przedstawieniu może otworzyć drogę do kariery.=Cztery dziewczyny, dotąd tworzące zgraną paczkę, stają się konkurentkami. I piąta, która wydaje się najgroźniejsza, nie tylko jeśli chodzi o wynik rywalizacji. Ale tak naprawdę to ich matki startują w wyścigu szczurów i nie cofną się przed niczym. A każda ma swoje tajemnice – mniej lub bardziej niewinne… Niektóre nawet mordercze.-Matki ---Kendall – żona Hollywoodu, która pragnie rozpocząć nowe życie w Londynie. Carolyn – profesor prawa, w skrytości marząca o zupełnie innej karierze. Elise – skupiona wyłącznie na swojej firmie. Bronnie –idealna gospodyni domowa. Nie mogłyby się bardziej różnić. Ale łączy jej jedno: wszystkie walczą o dobro własnych córek, choć każda rozumie je po swojemu.-Córki---Ruby – niestabilna psychicznie intrygantka. Jess – wyjątkowo utalentowana. Sadie – mająca najmniejsze szanse na sukces. Bel – marzenie wszystkich rodziców. Podobnie jak ich matki, różnią się między sobą, a jednak trzymają się razem. Choć w przeszłości doszło między nimi do poważnych konfliktów, które je podzieliły, wybaczyły sobie. Najbardziej prestiżowa w Londynie szkoła sztuk scenicznych jest jednak miejscem, gdzie ambicje dziewcząt ścierają się w sposób, który może skończyć się tragicznie.==Ta nowa===Jej pojawienie się miało załagodzić relacje między czwórką uczennic. Tymczasem konflikty eskalują do tego stopnia, że zagraża to już nie tylko zdrowiu psychicznemu dziewcząt, ale też ich życiu.===Ktoś sieje terror i szkoła zaczyna przypominać kłębowisko żmij.=====",
+      okladka: "/images/dublerka.jpg",
     },
     {
       id: 10,
-      tytul: "Lustro",
+      tytul: "Mursz",
       autor: "Ewa Przydryga",
-      wydawnictwo: "Kobiece",
-      kategorie: ["Kryminał"],
-      opis: "Mroczny kryminał z wątkiem psychologicznym...",
-      okladka: "/images/lustro.jpg",
+      wydawnictwo: "Muza",
+      kategorie: ["Kryminał", "Thriller"],
+      opis: "Las, który odcisnął krwawe piętno na życiu okolicznych mieszkańców, przypieczętuje także jej los…=Pola z trudem usiłuje wrócić do nowego życia bez męża i syna. Po zakończeniu terapii regularnie koresponduje z Kasandrą, z którą zaprzyjaźniła się podczas pobytu w szpitalu. Wkrótce w ręce Poli trafia list, zupełnie inny niż poprzednie, będący zapowiedzią samobójstwa przyjaciółki.=Ujawniony w liście sekret prowadzi Polę do owianego złą sławą Murszu, wymarłej części kaszubskiego lasu. To tam rok wcześniej została zamordowana Lara, koleżanka Kasandry. Wyznania Kas rzucają jednak zupełnie nowe światło na makabryczne zdarzenia tamtej nocy. =Każda z leśnych dróg prowadzi Polę pod drzwi tajemniczej spalonej leśniczówki. Strawiona ogniem chata skrywa mroczne sekrety lasu i mieszkających w nim ludzi. Tych żyjących i tych, którzy na przestrzeni lat w tragicznych okolicznościach stracili tu życie. ",
+      okladka: "/images/mursz.jpg",
     },
   
+
+
     // 🏰 POWIEŚĆ HISTORYCZNA 🏰
     {
       id: 11,
-      tytul: "Imię róży",
+      tytul: "Imię róży, Il nome della rosa ",
       autor: "Umberto Eco",
       wydawnictwo: "Znak",
       kategorie: ["Powieść historyczna"],
-      opis: "Średniowieczny klasztor, seria morderstw i tajemnicze śledztwo...",
-      okladka: "/images/imię_rozy.jpg",
+      opis: "Listopad 1327 roku. Do znamienitego opactwa benedyktynów w północnych Włoszech przybywa uczony franciszkanin, Wilhelm z Baskerville, któremu towarzyszy uczeń i sekretarz, nowicjusz Adso z Melku. W klasztorze panuje ponury nastrój. Opat zwraca się do Wilhelma z prośbą o pomoc w rozwikłaniu zagadki tajemniczej śmierci jednego z mnichów. Sprawa jest nagląca, gdyż za kilka dni w opactwie ma się odbyć ważna debata teologiczna, w której wezmą udział dostojnicy kościelni, z wielkim inkwizytorem Bernardem Gui na czele. Tymczasem dochodzi do kolejnych morderstw. Przenikliwy Anglik orientuje się, że wyjaśnienia mrocznego sekretu należy szukać w klasztornej bibliotece. Bogaty księgozbiór, w którym nie brak dzieł uważanych za niebezpieczne, mieści się w salach tworzących labirynt. Intruz może tam łatwo zabłądzić, a nawet - jak krążą słuchy - postradać zmysły.",
+      okladka: "/images/imierózy.jpg",
     },
     {
       id: 12,
-      tytul: "Kochanek z Pragi",
-      autor: "Irina Prokopienko",
-      wydawnictwo: "Świat Książki",
+      tytul: "Dyktator",
+      autor: "Robert Harris",
+      wydawnictwo: " Albatros",
       kategorie: ["Powieść historyczna"],
-      opis: "Historia miłości w okupowanej przez Niemców Pradze...",
-      okladka: "/images/kochankzpragi.jpg",
+      cykl: " Trylogia Imperium Rzymskie (tom 3) ",
+      opis: "Powieść historyczna w barwny sposób przedstawiająca ostatni okres z życia Cycerona i upadek republiki rzymskiej.=Książka, przy której nie sposób się powstrzymać przed porównaniami z późniejszymi wydarzeniami historycznymi, również z tymi najnowszymi.=Marek Tuliusz Cycero – były konsul, człowiek, dla którego polityka jest sensem życia, musi stanąć w obronie republiki.I tak jak dotąd jego orężem nie będzie miecz.=Cycero musi uciekać z Rzymu, a jego dom zostaje podpalony przez motłoch. Na mocy dekretu wydanego przez bezwzględnego trybuna Klodiusza każdy, kto udzieli mu pomocy, odpowie za to gardłem.=Załamany Cycero, od którego odwraca się większość możnych przyjaciół, udaje się na wygnanie do Tesalonik. W polityce jednak nic nie trwa wiecznie. Kiedy kończy się wszechwładza Klodiusza, wspieranego militarnie przez Juliusza Cezara, Cycero wraca do Rzymu, bez którego jako „zwierzę polityczne” nie może żyć. I znów jest w centrum wydarzeń… Czasem nimi steruje, czasem pada ich ofiarą.",
+      okladka: "/images/dyktator.jpg",
     },
     {
       id: 13,
