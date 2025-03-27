@@ -97,7 +97,40 @@ export const wszystkieKsiazki = [
       opis: "Las, który odcisnął krwawe piętno na życiu okolicznych mieszkańców, przypieczętuje także jej los…=Pola z trudem usiłuje wrócić do nowego życia bez męża i syna. Po zakończeniu terapii regularnie koresponduje z Kasandrą, z którą zaprzyjaźniła się podczas pobytu w szpitalu. Wkrótce w ręce Poli trafia list, zupełnie inny niż poprzednie, będący zapowiedzią samobójstwa przyjaciółki.=Ujawniony w liście sekret prowadzi Polę do owianego złą sławą Murszu, wymarłej części kaszubskiego lasu. To tam rok wcześniej została zamordowana Lara, koleżanka Kasandry. Wyznania Kas rzucają jednak zupełnie nowe światło na makabryczne zdarzenia tamtej nocy. =Każda z leśnych dróg prowadzi Polę pod drzwi tajemniczej spalonej leśniczówki. Strawiona ogniem chata skrywa mroczne sekrety lasu i mieszkających w nim ludzi. Tych żyjących i tych, którzy na przestrzeni lat w tragicznych okolicznościach stracili tu życie. ",
       okladka: "/images/mursz.jpg",
     },
-  
+
+    //Thiller
+    {
+      id: 16,
+      tytul: "Kolekcjoner lalek",
+      autor: "Katarzyna Bonda",
+      wydawnictwo: "Muza",
+      cykl: "Lena (tom 1)",
+      kategorie: ["Kryminał", "Sensacja", "Thriller"],
+      opis: "Zostały mu tylko lalki. Tylko one się liczą...",
+      okladka: "/images/lalek.jpg",
+    },
+    {
+      id: 17,
+      tytul: "Bezkarny",
+      autor: "Remigiusz Mróz",
+      wydawnictwo: "Filia",
+      cykl: "Mroczna strona",
+      kategorie: ["Kryminał", "Sensacja", "Thriller"],
+      opis: "Czarujący uwodziciel, bezwzględny manipulator i profesjonalny oszust...",
+      okladka: "/images/bezkarny.jpg",
+    },
+
+    {
+      id: 26,
+      tytul: "W mroku",
+      autor: "Magda Stachula",
+      wydawnictwo: "Czarna Owca",
+      cykl: "",
+      kategorie: ["Thriller", "Sensacja"],
+      opis: "Bohaterka wplątuje się w mroczny świat manipulacji...",
+      okladka: "/images/wmroku.jpg",
+    },
+
 
 
     // 🏰 POWIEŚĆ HISTORYCZNA 🏰
@@ -148,37 +181,84 @@ export const wszystkieKsiazki = [
       okladka: "/images/oblezenie.jpg",
     },
   
-  {
-    id: 16,
-    tytul: "Kolekcjoner lalek",
-    autor: "Katarzyna Bonda",
-    wydawnictwo: "Muza",
-    cykl: "Lena (tom 1)",
-    kategorie: ["Kryminał", "Sensacja", "Thriller"],
-    opis: "Zostały mu tylko lalki. Tylko one się liczą...",
-    okladka: "/images/lalek.jpg",
-  },
-  {
-    id: 17,
-    tytul: "Bezkarny",
-    autor: "Remigiusz Mróz",
-    wydawnictwo: "Filia",
-    cykl: "Mroczna strona",
-    kategorie: ["Kryminał", "Sensacja", "Thriller"],
-    opis: "Czarujący uwodziciel, bezwzględny manipulator i profesjonalny oszust...",
-    okladka: "/images/bezkarny.jpg",
-  },
-  {
-    id: 18,
-    tytul: "The Primal of Blood and Bone",
-    autor: "Jennifer L. Armentrout",
-    wydawnictwo: "Blue Box Press",
-    cykl: "Krew i popiół (tom 6)",
-    kategorie: ["Fantasy", "Science Fiction"],
-    opis: "In the shadows and flames, Primals will fall…",
-    okladka: "/images/bone.jpg",
-  },
-  {
+//Fantasy
+
+
+{
+  id: 23,
+  tytul: "Harry Potter i Kamień Filozoficzny",
+  autor: "J.K. Rowling",
+  wydawnictwo: "Media Rodzina",
+  cykl: "Harry Potter (tom 1)",
+  kategorie: ["Fantasy", "Literatura młodzieżowa"],
+  opis: "Młody czarodziej odkrywa świat magii i przyjaźni...",
+  okladka: "/images/kamieńfilozoficzny.jpg",
+},
+
+
+//Literatura młodzieżowa
+
+{
+  id: 20,
+  tytul: "Złodziej Pioruna",
+  autor: "Rick Riordan",
+  wydawnictwo: "Galeria Książki",
+  cykl: " Percy Jackson i Bogowie Olimpijscy (tom 1)" ,
+  kategorie: ["Fantasy", "Literatura młodzieżowa"],
+  opis: "Co by było, gdyby olimpijscy bogowie żyli w XXI wieku? Co by było, gdyby nadal zakochiwali się w śmiertelnikach i śmiertelniczkach i mieli z nimi dzieci, z których mogliby wyrosnąć wielcy herosi – jak Tezeusz, Jazon czy Herakles? Jak to jest – być takim dzieckiem? To właśnie przydarzyło się dwunastoletniemu Percy’emu Jacksonowi, który zaraz po tym, jak dowiedział się prawdy, wyruszył w niezwykle niebezpieczną misję. Z pomocą satyra i córki Ateny Percy odbędzie podróż przez całe Stany Zjednoczone, żeby schwytać złodzieja, który ukradł przedwieczną „broń masowego rażenia” – należący do Zeusa piorun piorunów. Po drodze zmierzy się z zastępami mitologicznych potworów, których zadaniem jest go powstrzymać. A przede wszystkim będzie musiał stawić czoła ojcu, którego nigdy wcześniej nie spotkał, oraz przepowiedni, która ostrzegła go przed… ",
+  okladka: "/images/richrio.jpg",
+},
+{
+  id: 31,
+  tytul: "Klątwa Tytana",
+  autor: "Rick Riordan",
+  wydawnictwo: "Galeria Książki",
+  cykl: " Percy Jackson i Bogowie Olimpijscy (tom 3) " ,
+  kategorie: [ "Literatura młodzieżowa"],
+  opis: "Kiedy Percy Jackson dostaje od swojego najlepszego kumpla Grovera pilną wiadomość z prośbą o pomoc, natychmiast przygotowuje się do walki. Przyjaciele ruszają na ratunek i odkrywają, że Grover spotkał kogoś wyjątkowego: dwoje potężnych dzieci półkrwi o nieznanym pochodzeniu. Ale to nie wszystko, co ich czeka. Król tytanów Kronos uknuł najbardziej podstępny ze swoich planów, a młodzi herosi mają być jego ofiarami.Nie tylko oni są w niebezpieczeństwie. Przebudził się starożytny potwór zdolny zniszczyć Olimp, a Artemida, jedyna bogini, która potrafi go wytropić, zaginęła. Percy i przyjaciele wraz z Łowczyniami Artemidy mają tylko tydzień, żeby odnaleźć porwaną boginię i rozwiązać tajemnicę potwora, na którego polowała. A po drodze będą się musieli zmierzyć z najniebezpieczniejszym wyzwaniem: mrożącą krew w żyłach klątwą tytana. ",
+  okladka: "/images/klątwatytana.jpg",
+},
+{
+  id: 31,
+  tytul: "Bitwa w Labiryncie",
+  autor: "Rick Riordan",
+  wydawnictwo: "Galeria Książki",
+  cykl: " Percy Jackson i Bogowie Olimpijscy (tom 4)  " ,
+  kategorie: [ "Literatura młodzieżowa","Fantasy"],
+  opis: "Percy Jackson nie spodziewa się niczego dobrego po dniu otwartym w nowej szkole. Ale kiedy nagle pojawia się jego tajemnicza znajoma śmiertelniczka oraz demoniczne cheerleaderki, sytuacja staje się po prostu dramatyczna. Czas ucieka, a wojna między Olimpijczykami a straszliwym królem tytanów Kronosem zbliża się nieuchronnie. Zagrożony Obóz Herosów z każdą minutą coraz mniej przypomina bezpieczną przystań, ponieważ armia Kronosa szykuje się do ataku na jego dotąd niedostępne granice. Żeby powstrzymać inwazję, Percy i jego przyjaciele muszą wyruszyć na wyprawę przez Labirynt – ogromną podziemną krainę, gdzie za każdym zakrętem czają się potwory i zdumiewające niespodzianki. ",
+  okladka: "/images/bitwawlab.jpg",
+},
+
+
+
+//Science Fiction
+  
+{
+  id: 28,
+  tytul: "Krew i popiół  , From Blood and Ash ",
+  autor: "Jennifer L. Armentrout",
+  wydawnictwo: " You & YA",
+  cykl: "Krew i popiół (tom 1)",
+  kategorie: ["Fantasy", "Science Fiction","Romans"],
+  opis: "Poppy to młoda i odważna dziewczyna. Wielu mieszkańców Królestwa mogłoby jej zazdrościć, gdyż została Panną Wybraną, a jej dusza i ciało mają zostać poświęcone Bogom. Jednak Poppy wcale nie cieszy się z sytuacji, w której się znalazła. Od wielu lat musi ukrywać twarz pod białym welonem, nikt nie może z nią rozmawiać i jej dotykać. Na dodatek kobieta ma zakaz wykonywania wielu czynności związanych ze zwykłym życiem, aby pozostać wolną od grzechów do końca swych dni.==Lecz Poppy nie zamierza stosować się do narzuconych zasad oraz reguł. W tajemnicy wychodzi z domu, trenuje sztuki walki, a także pomaga innym mieszkańcom Królestwa. Pewnego dnia poznaje Hawke, osobę, która odmieni jej los i drastycznie zmieni bieg przyszłych wydarzeń. Czy lud dowie się o niegodnych uczynkach popełnianych przez Pannę Wybraną? Czy uzna ją za kobietę przeklętą? Jak potoczy się niesamowita znajomość Poppy i Hawke?",
+  okladka: "/images/krewipopiól.jpg",
+},
+{ //!!!
+  id: 18,
+  tytul: "The Primal of Blood and Bone",
+  autor: "Jennifer L. Armentrout",
+  wydawnictwo: "Blue Box Press",
+  cykl: "Krew i popiół (tom 6)",
+  kategorie: ["Fantasy", "Science Fiction"],
+  opis: "In the shadows and flames, Primals will fall…And from the blood and ash, new gods will rise. Poppy and Casteel face their most perilous challenges yet as old enemies rise and ancient powers stir from their slumber.",
+  okladka: "/images/bone.jpg",
+},
+
+
+
+//romans
+ 
+  { //!!!
     id: 19,
     tytul: "A imię jej szeptał wiatr",
     autor: "Laura Green",
@@ -187,16 +267,38 @@ export const wszystkieKsiazki = [
     opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
     okladka: "/images/wiatr.jpg",
   },
+  
+ 
+  
+  
+
+
+
+  // literatura obyczajowa
   {
-    id: 20,
-    tytul: "Percy Jackson i Bogowie Olimpijscy: Złodziej pioruna",
-    autor: "Rick Riordan",
-    wydawnictwo: "Galeria Książki",
-    cykl: "Percy Jackson (tom 1)",
-    kategorie: ["Fantasy", "Literatura młodzieżowa"],
-    opis: "Percy Jackson odkrywa, że jest synem Posejdona...",
-    okladka: "/images/percy.jpg",
+    id: 27,
+    tytul: "Zimowy ogród",
+    autor: "Kristin Hannah",
+    wydawnictwo: "Prószyński i S-ka",
+    cykl: "",
+    kategorie: ["Literatura obyczajowa", "Romans"],
+    opis: "Historia miłości, rodzinnych tajemnic i dramatów...",
+    okladka: "/images/ogród.jpg",
   },
+  {
+    id: 29,
+    tytul: "Złodziejka książek",
+    autor: "Markus Zusak",
+    wydawnictwo: "Nasza Księgarnia",
+    cykl: "",
+    kategorie: ["Powieść historyczna", "Literatura obyczajowa"],
+    opis: "Kiedy wojna staje się tłem dla najważniejszej książki w życiu...",
+    okladka: "/images/złodziejka.jpg",
+  },
+
+
+  //literatura dzieciąca
+
   {
     id: 21,
     tytul: "Opowieści z Narnii: Lew, Czarownica i Stara Szafa",
@@ -217,16 +319,6 @@ export const wszystkieKsiazki = [
     okladka: "/images/krainyoz.jpg",
   },
   {
-    id: 23,
-    tytul: "Harry Potter i Kamień Filozoficzny",
-    autor: "J.K. Rowling",
-    wydawnictwo: "Media Rodzina",
-    cykl: "Harry Potter (tom 1)",
-    kategorie: ["Fantasy", "Literatura młodzieżowa"],
-    opis: "Młody czarodziej odkrywa świat magii i przyjaźni...",
-    okladka: "/images/kamieńfilozoficzny.jpg",
-  },
-  {
     id: 24,
     tytul: "Tajemniczy ogród",
     autor: "Frances Hodgson Burnett",
@@ -244,44 +336,21 @@ export const wszystkieKsiazki = [
     opis: "Dwóch braci trafia do magicznego świata Nangijali...",
     okladka: "/images/bracialwie.jpg",
   },
+
+
+
+
   {
-    id: 26,
-    tytul: "W mroku",
-    autor: "Magda Stachula",
-    wydawnictwo: "Czarna Owca",
+    id: 30,
+    tytul: "Koniec i początek świata",
+    autor: "Maria Kann",
+    wydawnictwo: "ALFA",
     cykl: "",
-    kategorie: ["Thriller", "Sensacja"],
-    opis: "Bohaterka wplątuje się w mroczny świat manipulacji...",
-    okladka: "/images/wmroku.jpg",
+    kategorie: ["Literatura dziecięca"],
+    opis: "Oto historia córki Niemki i Polaka, urodzonej na Ukrainie. Wspaniałe, szczęśliwe dzieciństwo zostało brutalnie przerwane przez śmierć ojca i rewolucyjną zawieruchę. Wrażliwa i inteligentna dziewczynka rozpaczliwie szuka swojego miejsca na ziemi, swej ojczyzny. Zafascynowana książką o Polsce, poruszona historią dzieci z Wrześni decyduje - jestem Polką! Późniejsze lata - dzieciństwo w domu przybranych rodziców, nauka, pierwsze przyjaźnie i miłości - to ciągłe 'uczenie się Polski'. Jakże często gorzkie, jakże często bolesne! ",
+    okladka: "/images/koniecipoczątek.jpg",
   },
-  {
-    id: 27,
-    tytul: "Zimowy ogród",
-    autor: "Kristin Hannah",
-    wydawnictwo: "Prószyński i S-ka",
-    cykl: "",
-    kategorie: ["Literatura obyczajowa", "Romans"],
-    opis: "Historia miłości, rodzinnych tajemnic i dramatów...",
-    okladka: "/images/ogród.jpg",
-  },
-  {
-    id: 28,
-    tytul: "Krew i popiół",
-    autor: "Jennifer L. Armentrout",
-    wydawnictwo: "Blue Box Press",
-    cykl: "Krew i popiół (tom 1)",
-    kategorie: ["Fantasy", "Science Fiction"],
-    opis: "Walka o przetrwanie w brutalnym świecie...",
-    okladka: "/images/krewipopiol.jpg",
-  },
-  {
-    id: 29,
-    tytul: "Złodziejka książek",
-    autor: "Markus Zusak",
-    wydawnictwo: "Nasza Księgarnia",
-    cykl: "",
-    kategorie: ["Powieść historyczna", "Literatura obyczajowa"],
-    opis: "Kiedy wojna staje się tłem dla najważniejszej książki w życiu...",
-    okladka: "/images/złodziejka.jpg",
-  },
+
+
+
 ];
