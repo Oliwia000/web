@@ -9,7 +9,7 @@ body {
 /* Pasek z napisem "Znajdź coś dla siebie" */
 .header-banner {
   width: 100%;
-  background-color: #8B4513; /* Brązowy */
+  background-color: #8B4513;
   color: white;
   padding: 20px;
   text-align: center;
@@ -71,6 +71,35 @@ body {
   color: white;
 }
 
+/* Wyświetlanie książek w 6 kolumnach */
+.lista-ksiazek {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.ksiazka {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.ksiazka img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styl dla wydarzeń */
+.wydarzenia ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wydarzenia li {
+  margin-bottom: 10px;
+}
+
 /* Strona szczegółów książki */
 .szczegoly-ksiazki {
   display: flex;
@@ -121,25 +150,6 @@ body {
   background-color: #D2691E;
 }
 
-/* Wyświetlanie książek w 6 kolumnach */
-.lista-ksiazek {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
-}
-
-.ksiazka {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.ksiazka img {
-  max-width: 100%;
-  height: auto;
-}
-
 /* Style ogólne */
 .app-container {
   display: flex;
@@ -161,4 +171,16 @@ body {
 
 .szczegoly-ksiazki button {
   margin-top: 15px;
+}
+
+/* Zgodność responsywna */
+@media screen and (max-width: 768px) {
+  .lista-ksiazek {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .nawigacja ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
