@@ -2,15 +2,20 @@ import React, { useState } from "react";
 import KategoriaBoczna from "./KategoriaBoczna";
 import ListaKsiazek from "./ListaKsiazek";
 import Wyszukiwarka from "./Wyszukiwarka";
-import "../styles/style.css";
 
 const AplikacjaKsiazki = () => {
   const [wybranaKategoria, setWybranaKategoria] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleWyszukaj = (query) => {
+    setSearchQuery(query);
+  };
 
   return (
     <div className="aplikacja-ksiazki">
-      <KategoriaBoczna onSelectCategory={setWybranaKategoria} />
-      <ListaKsiazek wybranaKategoria={wybranaKategoria} />
+      <Wyszukiwarka onWyszukaj={handleWyszukaj} />
+      <KategoriaBoczna wybierzKategorie={setWybranaKategoria} />
+      <ListaKsiazek wybranaKategoria={wybranaKategoria} searchQuery={searchQuery} />
     </div>
   );
 };
