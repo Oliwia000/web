@@ -12,6 +12,7 @@ function KategoriaBoczna({ wybierzKategorie }) {
   return (
     <aside className="menu-boczne">
       <h2>Kategorie</h2>
+      <Wyszukiwarka onWyszukaj={(searchTerm) => wybierzKategorie(searchTerm)} />
       <ul>
         <li 
           className={!aktywnaKategoria ? "active-category" : ""} 
@@ -73,7 +74,12 @@ function KategoriaBoczna({ wybierzKategorie }) {
         >
           👤 Biografia
         </li>
-
+        <li 
+          className={aktywnaKategoria === "Klasyka" ? "active-category" : ""} 
+          onClick={() => zmienKategorie("Klasyka")}
+        >
+          🏛️ Klasyka
+        </li>
         <li 
           className={aktywnaKategoria === "18+" ? "active-category" : ""} 
           onClick={() => zmienKategorie("18+")}
