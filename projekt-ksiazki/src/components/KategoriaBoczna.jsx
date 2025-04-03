@@ -65,7 +65,7 @@ function KategoriaBoczna({ wybierzKategorie }) {
           className={aktywnaKategoria === "Literatura obyczajowa" ? "active-category" : ""} 
           onClick={() => zmienKategorie("Literatura obyczajowa")}
         >
-          📚 Literatura obyczajowa
+          📚 Literatura obyczajowa/Lektury
         </li>
         <li 
           className={aktywnaKategoria === "Biografia" ? "active-category" : ""} 

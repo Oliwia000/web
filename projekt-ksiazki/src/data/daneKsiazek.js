@@ -182,7 +182,54 @@ export const wszystkieKsiazki = [
       opis: "Portretując pierwszego rzymskiego cesarza, Williams unika epickiego rozmachu w hollywoodzkim stylu i oddaje prowadzenie opowieści samym bohaterom. Wśród narratorów są mistrzowie retoryki, tacy jak Cyceron i Horacy, ale również żołnierze, urzędnicy i prości obywatele starożytnego Rzymu, których głosy, poznawane przez nas w pamiętnikach, listach, dokumentach, pisarz stara się odtworzyć w całej różnorodności – tak byśmy mogli odczuć „żywą obecność” istniejących przed wiekami postaci.==W gruncie rzeczy „August” ma wiele wspólnego ze „Stonerem”. Obie powieści opisują biografię pojedynczego człowieka, a ich głównym tematem jest walka o władzę, choć prowadzona na różną skalę. W „Auguście” historię o wielkiej polityce Williams podszywa intymną opowieścią o życiu rodzinnym i miłości ojca do córki, poruszając nie tylko nasz intelekt, lecz również emocje. Żal nam Oktawiusza, który jako niepozorny dziewiętnastolatek musi podjąć wyzwanie losu i przejąć rządy w republice, współodczuwamy z jego córką Julią, gdy ta odkrywa swoją cielesność i podejmuje emancypacyjne wysiłki. Niestety – jak zauważa w posłowiu tłumacz Williamsa, Maciej Stroiński: „Polityka, szczęście rodzinne i święty spokój okazują się w »Auguście« nie do pogodzenia”. orma HBO Max. .",
       okladka: "/images/auust.jpg",
     },
-  
+    {
+      id: 34,
+      tytul: "Sonata z Auschwitz",
+      autor: "Luize Valente",
+      wydawnictwo: "Bukowy Las",
+      kategorie: ["Powieść historyczna"],
+      opis: "Październik 1944 roku. W Auschwitz na świat przychodzi Haya. Niedługo potem młody niemiecki oficer komponuje dla niej sonatę.==Kilka dekad później Amália, Portugalka o niemieckich korzeniach, po raz pierwszy w życiu spotyka w Berlinie swoją niemal stuletnią prababkę i odkrywa nazistowską przeszłość rodziny. Dowiedziawszy się, że jej dziadek, dawno uznany za zmarłego, być może żyje na drugim końcu świata, młoda kobieta wyrusza w podróż, by wyjaśnić rodzinne tajemnice.==W Rio de Janeiro poznaje parę ocalałych z Holocaustu Żydów, którzy przybliżają jej dramatyczne wydarzenia z przeszłości. Amália będzie musiała połączyć wszystkie elementy układanki, żeby dojść do prawdy.",
+      okladka: "/images/sonatazau.jpg",
+    },
+    {
+      id: 35,
+      tytul: "Królowa Margot",
+      autor: "Aleksander Dumas",
+      wydawnictwo: "Świat Książki",
+      cykl: "Trylogia o Walezjuszach (tom 1)",
+      kategorie: ["Powieść historyczna"],
+      opis: "'Królowa Margo' to powieść o miłości, intrygach i brutalnych wojnach religijnych, osadzona w pełnym napięć okresie francuskiej historii. Alexandre Dumas połączył w niej dynamiczne wydarzenia historyczne z emocjonującymi osobistymi dramatami, tworząc barwną i pełną napięcia opowieść o kobiecie uwikłanej w politykę, namiętność i zdradę",
+      okladka: "/images/krolowamargot.jpg",
+    },
+    {
+      id: 36,
+      tytul: "August",
+      autor: "John Williams",
+      wydawnictwo: "Wydawnictwo Filtry",
+      kategorie: ["Powieść historyczna"],
+      opis: "Portretując pierwszego rzymskiego cesarza, Williams unika epickiego rozmachu w hollywoodzkim stylu i oddaje prowadzenie opowieści samym bohaterom. Wśród narratorów są mistrzowie retoryki, tacy jak Cyceron i Horacy, ale również żołnierze, urzędnicy i prości obywatele starożytnego Rzymu, których głosy, poznawane przez nas w pamiętnikach, listach, dokumentach, pisarz stara się odtworzyć w całej różnorodności – tak byśmy mogli odczuć „żywą obecność” istniejących przed wiekami postaci.==W gruncie rzeczy „August” ma wiele wspólnego ze „Stonerem”. Obie powieści opisują biografię pojedynczego człowieka, a ich głównym tematem jest walka o władzę, choć prowadzona na różną skalę. W „Auguście” historię o wielkiej polityce Williams podszywa intymną opowieścią o życiu rodzinnym i miłości ojca do córki, poruszając nie tylko nasz intelekt, lecz również emocje. Żal nam Oktawiusza, który jako niepozorny dziewiętnastolatek musi podjąć wyzwanie losu i przejąć rządy w republice, współodczuwamy z jego córką Julią, gdy ta odkrywa swoją cielesność i podejmuje emancypacyjne wysiłki. Niestety – jak zauważa w posłowiu tłumacz Williamsa, Maciej Stroiński: „Polityka, szczęście rodzinne i święty spokój okazują się w »Auguście« nie do pogodzenia”. orma HBO Max. .",
+      okladka: "/images/auust.jpg",
+    },
+    {
+      id: 37,
+      tytul: "August",
+      autor: "John Williams",
+      wydawnictwo: "Wydawnictwo Filtry",
+      kategorie: ["Powieść historyczna"],
+      opis: "Portretując pierwszego rzymskiego cesarza, Williams unika epickiego rozmachu w hollywoodzkim stylu i oddaje prowadzenie opowieści samym bohaterom. Wśród narratorów są mistrzowie retoryki, tacy jak Cyceron i Horacy, ale również żołnierze, urzędnicy i prości obywatele starożytnego Rzymu, których głosy, poznawane przez nas w pamiętnikach, listach, dokumentach, pisarz stara się odtworzyć w całej różnorodności – tak byśmy mogli odczuć „żywą obecność” istniejących przed wiekami postaci.==W gruncie rzeczy „August” ma wiele wspólnego ze „Stonerem”. Obie powieści opisują biografię pojedynczego człowieka, a ich głównym tematem jest walka o władzę, choć prowadzona na różną skalę. W „Auguście” historię o wielkiej polityce Williams podszywa intymną opowieścią o życiu rodzinnym i miłości ojca do córki, poruszając nie tylko nasz intelekt, lecz również emocje. Żal nam Oktawiusza, który jako niepozorny dziewiętnastolatek musi podjąć wyzwanie losu i przejąć rządy w republice, współodczuwamy z jego córką Julią, gdy ta odkrywa swoją cielesność i podejmuje emancypacyjne wysiłki. Niestety – jak zauważa w posłowiu tłumacz Williamsa, Maciej Stroiński: „Polityka, szczęście rodzinne i święty spokój okazują się w »Auguście« nie do pogodzenia”. orma HBO Max. .",
+      okladka: "/images/auust.jpg",
+    },
+    {
+      id: 38,
+      tytul: "August",
+      autor: "John Williams",
+      wydawnictwo: "Wydawnictwo Filtry",
+      kategorie: ["Powieść historyczna"],
+      opis: "Portretując pierwszego rzymskiego cesarza, Williams unika epickiego rozmachu w hollywoodzkim stylu i oddaje prowadzenie opowieści samym bohaterom. Wśród narratorów są mistrzowie retoryki, tacy jak Cyceron i Horacy, ale również żołnierze, urzędnicy i prości obywatele starożytnego Rzymu, których głosy, poznawane przez nas w pamiętnikach, listach, dokumentach, pisarz stara się odtworzyć w całej różnorodności – tak byśmy mogli odczuć „żywą obecność” istniejących przed wiekami postaci.==W gruncie rzeczy „August” ma wiele wspólnego ze „Stonerem”. Obie powieści opisują biografię pojedynczego człowieka, a ich głównym tematem jest walka o władzę, choć prowadzona na różną skalę. W „Auguście” historię o wielkiej polityce Williams podszywa intymną opowieścią o życiu rodzinnym i miłości ojca do córki, poruszając nie tylko nasz intelekt, lecz również emocje. Żal nam Oktawiusza, który jako niepozorny dziewiętnastolatek musi podjąć wyzwanie losu i przejąć rządy w republice, współodczuwamy z jego córką Julią, gdy ta odkrywa swoją cielesność i podejmuje emancypacyjne wysiłki. Niestety – jak zauważa w posłowiu tłumacz Williamsa, Maciej Stroiński: „Polityka, szczęście rodzinne i święty spokój okazują się w »Auguście« nie do pogodzenia”. orma HBO Max. .",
+      okladka: "/images/auust.jpg",
+    },
+
+    
 //Fantasy
 
 
