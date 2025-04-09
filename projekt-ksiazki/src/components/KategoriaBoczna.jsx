@@ -66,7 +66,7 @@ function KategoriaBoczna({ wybierzKategorie }) {
           className={aktywnaKategoria === "Literatura obyczajowa" ? "active-category" : ""} 
           onClick={() => zmienKategorie("Literatura obyczajowa")}
         >
-          📚 Literatura obyczajowa/Lektury
+          📚 Literatura obyczajowa
         </li>
         <li 
           className={aktywnaKategoria === "Biografia" ? "active-category" : ""} 
@@ -78,7 +78,7 @@ function KategoriaBoczna({ wybierzKategorie }) {
           className={aktywnaKategoria === "Klasyka" ? "active-category" : ""} 
           onClick={() => zmienKategorie("Klasyka")}
         >
-          🏛️ Klasyka
+          🏛️ Klasyka/Lektury
         </li>
         <li 
           className={aktywnaKategoria === "18+" ? "active-category" : ""} 
