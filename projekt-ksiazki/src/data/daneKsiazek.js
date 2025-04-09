@@ -1,6 +1,5 @@
 export const wszystkieKsiazki = [
 
-
     // 📖 HORROR 📖
     {
       id: 1,
@@ -414,16 +413,15 @@ export const wszystkieKsiazki = [
 
 
 
-  // literatura obyczajowa
-  
-  //stworzyc ta kategorie{lektury/klasayka}
+
+  // kategorie{lektury/klasayka}
   {
     id: 48,
     tytul: "Syzyfowe prace",
     autor: "Stefan Żeromski",
     wydawnictwo: " Greg",
     cykl: "",
-    kategorie: ["Literatura obyczajowa"],
+    kategorie: ["Klasyka"],
     opis: "Powieść Stefana Żeromskiego opowiada o trudnych dla Polski czasach - znajdująca się pod zaborami ojczyzna zniknęła z mapy Europy. Polacy musieli zmagać się z zakusami zaborców, którzy za wszelką cenę chcieli sprawić, by młodzież zapomniała, kim naprawdę jest.=Syzyfowe prace w serii Kolorowa Klasyka to najpiękniejsze kolorowe wydanie tej powieści na rynku! Książka zawiera wspaniałe, barwne ilustracje, jej atutem jest duża, ułatwiająca szybkie czytanie czcionka. Edycja na szlachetnym papierze, bardzo trwała i estetyczna. Wydanie zawiera pełny tekst utworu, bez skrótów i cięć w treści. Wydanie to nie zawiera opracowania.=Państwo Borowiczowie wysyłają swojego jedynaka - Marcinka - do szkoły. Ze szkoły wynosi nie tylko wiedzę, którą starają się przekazać mu nauczyciele, dojrzewa i zyskuje świadomość swojej narodowości. Syzyfowe prace opisują ducha narodu, którego żaden zaborca nie mógł stłamsić.=Wydanie w twardej oprawie jest szczególnie trwałe i wytrzymałe. ",
     okladka: "/images/syzysowepraceze.jpg",
   },
@@ -433,7 +431,7 @@ export const wszystkieKsiazki = [
     autor: "Stanisław Wyspiański",
     wydawnictwo: "Świat Książki",
     cykl: "",
-    kategorie: ["Literatura obyczajowa"],
+    kategorie: ["Klasyka"],
     opis: "Dramat o tradycji, patriotyzmie oraz narodowej tożsamości, który nawiązuje do ślubu poety Lucjana Rydla z chłopką Jadwigą Mikołajczykówną. Tytułowa uroczystość jest pretekstem do ukazania rozmaitych postaci i charakterów społeczeństwa polskiego.='Wesele' to przede wszystkim obraz Polski, podzielonej na trzy grupy społeczne: inteligencję, chłopów i szlachtę. Jest także refleksją nad polskim losem i rolą sztuki w życiu narodu. ",
     okladka: "/images/weaselewys.jpg",
   },
@@ -443,7 +441,7 @@ export const wszystkieKsiazki = [
     autor: "Fiodor Dostojewski",
     wydawnictwo: "Wydawnictwo MG",
     cykl: "",
-    kategorie: ["Literatura obyczajowa"],
+    kategorie: ["Klasyka"],
     opis: "Słynna powieść Fiodora Dostojewskiego, opowiadająca o losach byłego studenta Rodiona Raskolnikowa, który postanawia zamordować i obrabować bogatą lichwiarkę.=Pomysł na tę powieść narodził się w czasie, kiedy sam autor przebywał na katordze. Zainteresował się wtedy psychologią współwięźniów, wśród których byli i tacy, którzy zostali skazani za morderstwo.=Bohater powieści, 23-letni były student prawa jest półsierotą, ma jednak kochającą rodzinę. Jego matka i siostra darzą go głęboką miłością i wspierają finansowo.=Jednak bohater, zbuntowany przeciw porządkowi świata, decyduje się popełnić morderstwo. Jest przekonany, że jako jednostka wybitna ma prawo zabijać, gdyż geniusz usprawiedliwia wszystkie zbrodnie na „zwykłych” ludziach. Morderstwo ma stać się rodzajem sprawdzianu jego odwagi. Choć jednocześnie bezpośrednią pobudką tego czynu jest zła sytuacja finansowa Raskolnikowa",
     okladka: "/images/zbrodniaikaradost.jpg",
   },
@@ -453,7 +451,7 @@ export const wszystkieKsiazki = [
     autor: "Fiodor Dostojewski",
     wydawnictwo: "Świat Książki",
     cykl: "",
-    kategorie: ["Literatura obyczajowa"],
+    kategorie: ["Klasyka"],
     opis: "'Idiota' Fiodora Dostojewskiego to jedna z najważniejszych powieści literatury światowej, wydana w 1869 roku. Autor stawia pytania o moralność, naturę człowieka, granice dobra i zła oraz sens życia. Głównym bohaterem jest książę Lew Myszkin, człowiek o niezwykle czystym sercu, którego naiwność i dobroć wystawione są na próbę w skomplikowanym świecie pełnym intryg, hipokryzji i egoizmu.=Książę Lew Myszkin powraca do Rosji po leczeniu w szwajcarskim sanatorium, gdzie przebywał z powodu epilepsji i załamania psychicznego. Po przyjeździe do Petersburga Myszkin zostaje wciągnięty w życie wyższych sfer społecznych, wypełnione namiętnościami, konfliktami i grami interesów.=Miłość Myszkina do dwóch kobiet, Nastazji Filipownej i Agłai Jepanczyn, jego idealizm oraz konflikt między współczuciem a romantycznym uczuciem prowadzą do tragicznych konsekwencji.",
     okladka: "/images/idiotadost.jpg",
   },
@@ -463,7 +461,7 @@ export const wszystkieKsiazki = [
     autor: "Mikołaj Gogol",
     wydawnictwo: "Wydawnictwo MG",
     cykl: "Seria-MaGia KLASYKI ",
-    kategorie: ["Literatura obyczajowa"],
+    kategorie: ["Klasyka"],
     opis: "Paweł Iwanowicz Cziczikow – grzeczny, zadbany, porządny obywatel – zajeżdża ze swym stangretem Selifanem oraz lokajem Pietrkiem do miasta gubernialnego N., gdzieś na rosyjskiej prowincji. Cziczikowa poznajemy powoli. Nie jest zbyt bogaty, ale też i nie jest biedny, 'ani tłusty, ani chudy' – raczej dosyć bezbarwny. Zapoznaje się najpierw z ważnymi osobistościami miasta. Robi to bardzo zręcznie, wzbudza ogólną sympatię i zainteresowanie. Następnie zaczyna objeżdżać okoliczne majątki, w celu skupowania martwych dusz chłopskich. Podróżując z nim poznajemy najróżniejsze charaktery ludzkie. Początkowo, wszystko wydaje się układać gładko, ale o Cziczikowie zaczynają krążyć plotki. Piękne pozory zmieniają kształty jak w krzywym zwierciadle. ",
     okladka: "/images/martweduszegla.jpg",
   },
