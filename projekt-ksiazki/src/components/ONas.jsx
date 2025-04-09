@@ -1,4 +1,5 @@
 import React from "react";
+import Wyszukiwarka from "./Wyszukiwarka";
 
 function ONas() {
   return (

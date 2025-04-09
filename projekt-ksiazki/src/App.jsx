@@ -41,6 +41,8 @@ function App() {
           <Routes>
             <Route path="/" element={<ListaKsiazek ksiazki={ksiazkiDoWyswietlenia} />} />
             <Route path="/ksiazka/:id" element={<SzczegolyKsiazki />} />
+            <Route path="/o-nas" element={<ONas />} /> {/* Ścieżka dla "O Nas" */}
+            <Route path="/wydarzenia" element={<Wydarzenia />} /> {/* Ścieżka dla "Wydarzenia" */}
           </Routes>
         </div>
       </div>
