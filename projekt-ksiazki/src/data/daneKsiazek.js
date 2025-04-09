@@ -465,9 +465,27 @@ export const wszystkieKsiazki = [
     opis: "Paweł Iwanowicz Cziczikow – grzeczny, zadbany, porządny obywatel – zajeżdża ze swym stangretem Selifanem oraz lokajem Pietrkiem do miasta gubernialnego N., gdzieś na rosyjskiej prowincji. Cziczikowa poznajemy powoli. Nie jest zbyt bogaty, ale też i nie jest biedny, 'ani tłusty, ani chudy' – raczej dosyć bezbarwny. Zapoznaje się najpierw z ważnymi osobistościami miasta. Robi to bardzo zręcznie, wzbudza ogólną sympatię i zainteresowanie. Następnie zaczyna objeżdżać okoliczne majątki, w celu skupowania martwych dusz chłopskich. Podróżując z nim poznajemy najróżniejsze charaktery ludzkie. Początkowo, wszystko wydaje się układać gładko, ale o Cziczikowie zaczynają krążyć plotki. Piękne pozory zmieniają kształty jak w krzywym zwierciadle. ",
     okladka: "/images/martweduszegla.jpg",
   },
-
-
-
+  {
+    id: 53,
+    tytul: "Pan Tadeusz",
+    autor: "Adam Mickiewicz",
+    wydawnictwo: "Wydawnictwo MG",
+    cykl: "Seria-MaGia KLASYKI ",
+    kategorie: ["Klasyka"],
+    opis: "Arcydzieło literatury narodowej. Składająca się z 12 ksiąg epopeja narodowa z elementami gawędy szlacheckiej. Pan Tadeusz stał się dla wielu pokoleń niewyczerpanym źródłem natchnień, fundamentem patriotycznych wzorów i przywołań pięknych, starodawnych szlacheckich tradycji. Można w nim, jak w wiecznie żywym zwierciadle, zobaczyć dawne gusta i obyczaje, stroje, zabawy i popularne potrawy, podziały stanowe, rytuały i sposoby rozumienia świata. Tytuł wyraźnie sugeruje, że głównym bohaterem będzie młody Tadeusz. Jednakże w trakcie lektury pojawia się bardzo wiele innych postaci, równie jak on ważnych. Na plan pierwszy wysuwa się zwłaszcza tajemniczy ksiądz Robak. Niniejsza edycja poematu, wzbogacona pięknymi ilustracjami Michała Elwiro Andriollego, oparta została na wydaniu przygotowanym wg rękopisu i pierwszych dwóch wydań (w tym korekty doń wykonanej przez samego Autora) opracowanym przez zespół naukowy kierowany przez prof. Konrada Górskiego dla Zakładu Naukowego im. Ossolińskich we Wrocławiu. ",
+    okladka: "/images/pantadeucz.jpg",
+  },
+  {
+    id: 54,
+    tytul: "Nad Niemnem ",
+    autor: "Eliza Orzeszkowa",
+    wydawnictwo: "Wydawnictwo MG",
+    cykl: "Seria-MaGia KLASYKI ",
+    kategorie: ["Klasyka"],
+    opis: "Justyna Orzelska, uboga szlachcianka, zraniona z powodu nieszczęśliwej miłości, a przy tym inteligentna i niezależna młoda kobieta, zakochuje się w Janie Bohatyrowiczu, potomku szlachty zagrodowej. Choć ten pochodzi z niższej warstwy społecznej, jest przedstawicielem rodu z wieloletnią tradycją. Opowiadania Jana o przodkach, biorących udział w powstaniu styczniowym, wzbudzają w dziewczynie silne uczucia patriotyczne.==Mezalians oraz pamięć o powstaniu styczniowym to główne osie powieści, która obejmuje również opisy obyczajowości i natury, rodowe legendy oraz różnice między warstwami społecznymi. Akcja powieści toczy się w drugiej połowie XIX wieku w majątku Korczyn i jego okolicach, nad wspaniałym Niemnem. Powieść uznano za jedno z najważniejszych dzieł pozytywizmu w literaturze polskiej. Książka przedstawia życie polskiego ziemiaństwa i chłopstwa na tle historycznych wydarzeń, takich jak powstanie styczniowe. ",
+    okladka: "/images/nadnieminem.jpg",
+  },
+  
 
 
   // literatura obyczajowa
