@@ -12,7 +12,6 @@ function KategoriaBoczna({ wybierzKategorie }) {
   return (
     <aside className="menu-boczne">
       <h2>Kategorie</h2>
-      <Wyszukiwarka onWyszukaj={(searchTerm) => wybierzKategorie(searchTerm)} />
       <ul>
         <li 
           className={!aktywnaKategoria ? "active-category" : ""} 
