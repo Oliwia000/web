@@ -358,7 +358,7 @@ export const wszystkieKsiazki = [
   okladka: "/images/klątwatytana.jpg",
 },
 {
-  id: 31,
+  id: 55,
   tytul: "Bitwa w Labiryncie",
   autor: "Rick Riordan",
   wydawnictwo: "Galeria Książki",
