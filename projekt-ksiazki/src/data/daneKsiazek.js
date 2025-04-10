@@ -671,12 +671,12 @@ export const wszystkieKsiazki = [
   {
     id: 63,
     tytul: "Tatuś Muminka i wielka powódź",
-    autor: "Richard Dungworth",
+    autor: "praca zbiorowa",
     wydawnictwo: "HarperCollins Polska, HarperKids",
-    cykl:"Muminki. Książeczki kartonowe  ",
+    cykl:"Opowiadania z Doliny Muminków ",
     kategorie: [ "Literatura dziecięca"],
-    opis: "Jest piękne letnie popołudnie i Muminek chętnie poszedłby nurkować z Panną Migotką. Ale na samą myśl o zamoczeniu uszu ze strachu ściska mu się brzuszek. Chciałby być choć trochę bardziej odważny! Zaraz, ale czy strach nie jest przypadkiem nieodłącznym elementem odwagi? ",
-    okladka: "/images/odwagimuminki.jpg",
+    opis: "Jeśli jeszcze nie znacie Muminków, omija was magiczna zabawa...=Gdy na dworze szaleje burza, Tatuś Muminka wspomina wielką powódź, która przed laty porwała Dom Muminków.=Zinterpretowana na nowo klasyczna historia Tove Jansson to opowieść o budowie Domu Muminków i o tym, jak znalazł się w Dolinie Muminków. ",
+    okladka: "/images/miminekpowosdz.jpg",
   },
   {
     id: 64,
