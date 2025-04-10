@@ -699,5 +699,34 @@ export const wszystkieKsiazki = [
     okladka: "/images/mumiekmałami.jpg",
   },
 
-
+  {
+    id: 66,
+    tytul: "Zwierzaki cudaki",
+    autor: "Bibi Dumon Tak",
+    wydawnictwo: "Dwie Siostry",
+    cykl: null,
+    kategorie: [ "Literatura dziecięca"],
+    opis: "Jak wygląda jak?=Czy latająca ryba ma skrzydła?=Po co zebrze paski?=Z czego strzela strzel bombardier?=Czy jaszczurka Jezusa Chrystusa jest święta?=Oto Zwierzaki cudaki – fascynujący przegląd 40 najbardziej niesamowitych zwierząt świata! Bibi Dumon Tak opisała je z lekkością, werwą i poczuciem humoru, zamieniając solidną porcję przyrodniczej wiedzy w pasjonujący zbiór barwnych zwierzęcych portretów.Co taka ryba latająca sobie wyobraża? Że pofrunie? Czy nie może jak inne ryby po prostu zostać w wodzie? Myśli, że jest ptakiem? Może powinna pójść do lekarza? Czyżby brakowało jej piątej klepki?=Latająca ryba ma wszystkie klepki w najlepszym porządku!",
+    okladka: "/images/zwiarzakicudaki.jpg",
+  },
+  {
+    id: 67,
+    tytul: "Co słychać, Cukierku?",
+    autor: "Waldemar Cichoń",
+    wydawnictwo: "Żwakowskie",
+    cykl: "Kot Cukierek (tom 7) ",
+    kategorie: [ "Literatura dziecięca"],
+    opis: " Niesforny, niegrzeczny, żarłoczny, leniwy, rozrabiający, włóczący się, wpadający w tarapaty, psujący wszystko, gałganowaty i szalony… Kto? Kot Cukierek! On – a także Tradycja, Maciek, Marcel oraz mama i tata – są dobrze znani z książek „Cukierku, Ty łobuzie!” i „Nie martw się, Cukierku”. Zdążyli zdobyć sympatię czytelników w każdym wieku, a rozpoczynająca serię cyklu książka „Cukierku, Ty łobuzie!” w 2017 roku została wpisana na listę lektur szkolnych Ministerstwa Edukacji Narodowej. „Co słychać, Cukierku?” to siódma część przygód niezwykłego czworonoga. Co zrobić, gdy do domu przyczepi się… toperz, a także kim jest „brzydkie kociątko” i dlaczego są o nim pisane oraz wystawiane sztuki teatralne. Po co organizowane są Wielkie Wyprawy Odkrywcze i co można podczas nich zrobić? Z jakiego powodu Wujek „Żetakpowiem” ma problemy ze snem? Dlaczego w rodzinnej łazience rozrabia rybi chuligan? Jakie danie upichci dla rodziny Marcel – mistrz patelni? Szalone wydarzenia, humor, dobrze znani – choć wyglądający inaczej – bohaterowie, nowa szata graficzna i fenomenalne rysunki autorstwa Dariusza Wanata – wszystko to jest gwarancją doskonałej zabawy i tego, że nie będziecie mogli oderwać się od czytania.    ",
+    okladka: "/images/coslychacciuekirku.jpg",
+  },
+  {
+    id: 68,
+    tytul: "Cukierku, ty łobuzie!",
+    autor: "Waldemar Cichoń",
+    wydawnictwo: "Dreams",
+    cykl: " Kot Cukierek (tom 1) ",
+    kategorie: [ "Literatura dziecięca"],
+    opis: "Cukiereczek jest małym, pręgowanym kotkiem, który staje się członkiem rodziny Marcela i uwielbia wywracać wszystko do góry nogami. Od rana do wieczora najchętniej skakałby i rozrabiał, po drodze zaliczając wiele ciekawych i porywających przygód. Wszystko dookoła jest dla niego interesujące i stanowi obiekt do psot i zabaw. Nie umie siedzieć spokojnie, w końcu po co siedzieć spokojnie skoro można biegać! A przy okazji coś zrzucić, zepsuć, przewrócić, narobić bałaganu i uciec z miejsca wypadku, żeby nikt nie mógł oskarżyć o cokolwiek słodkiego kotka. Zresztą nawet przyłapany na gorącym uczynku potrafi zgrabnie wywinąć się od odpowiedzialności. Kto w końcu nie ulegnie jego urokowi!=Historie które przytrafiają się Cukierkowi przyprawiają o zawrót głowy. Raz ucieka z mieszkania, walczy ze szczotką, albo bawi się ze sweterkiem mamy, który oczywiście nie wychodzi z takiej zabawy w całości. Wszystko to doprowadza jego pana do szaleństwa i często wystawia jego cierpliwość na próbę. Kotek jest na tyle rezolutny i pomysłowy, że nie ma mowy o chwili spokoju w domu lub bezwypadkowym tygodniu. Nie sposób jednak gniewać się na niego zbyt długo, gdyż swoją słodkością i pięknymi oczami zdobędzie serce każdego. Towarzyszymy mu w rozmaitych sytuacjach i poznajemy świat z perspektywy zwierzątka, dla którego wszystko wygląda inaczej, niż mogłoby się wydawać.='Cukierku Ty łobuzie'to książka dla najmłodszych, zachęcająca do czytania i rozwijania wyobraźni. Jednocześnie stanowi również zabawę dla rodziców, ponieważ przytoczone sytuacje są na tyle zabawne, że rozśmieszą niejednego z nich! Autor bardzo dobrze radzi sobie z pisaniem w swobodnym stylu, prostym językiem, który jest zrozumiały dla dzieci i może ćwiczyć ich zdolności czytania. Kolejnym dużym plusem książki są wyraźne, różnobarwne i pobudzające wyobraźnię ilustracje. Dzięki nim dziecko może chętniej po nią sięgnąć i zauroczyć się w słodkim Cukierku, namalowanym z wielką precyzją.='Cukierku, ty łobuzie' to przezabawna historia, ciepła i dedykowana dla każdego dziecka, niezależnie czy jest wielbicielem kotów, czy nie. Jeśli jednak nie jest, to z dużym prawdopodobieństwem zapragnie mieć czworonożnego, futrzastego przyjaciela! ",
+    okladka: "/images/cukirkutuzlosbuse.jpg",
+  },
 ];
