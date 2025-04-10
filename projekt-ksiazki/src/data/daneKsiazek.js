@@ -416,7 +416,7 @@ export const wszystkieKsiazki = [
 
 
 
-//Science Fiction
+//Science Fiction 
   
 {
   id: 37,
@@ -437,6 +437,47 @@ export const wszystkieKsiazki = [
   kategorie: ["Fantasy", "Science Fiction"],
   opis: "In the shadows and flames, Primals will fall…And from the blood and ash, new gods will rise. Poppy and Casteel face their most perilous challenges yet as old enemies rise and ancient powers stir from their slumber.",
   okladka: "/images/bone.jpg",
+},
+
+{
+  id: 77,
+  tytul: "Wisteria",
+  autor: "Adalyn Grace",
+  wydawnictwo: " Uroboros",
+  cykl: "Belladonna (tom 3) ",
+  kategorie: ["Fantasy", "Science Fiction"],
+  opis: "Blythe Hawthorne nigdy nie dawała sobie w kaszę dmuchać – ani ojcu, który traktuje ją jak porcelanową lalkę, ani społeczeństwu próbującemu narzucić jej, co wypada, a co nie. A już na pewno nie pozwoli sobą rządzić mężczyźnie, którego poślubiła, niezależnie od tego, jak bardzo będzie perfidny i nieznośny. Skoro już łączy ich magiczna więź, która nie pozwoli jej się uwolnić od męża do końca swych dni, zdecydowana jest zostać... cierniem u jego boku. On nie pozostanie jej dłużny i zrobi wszystko, by życie z nim nie przypominało bajki.=Los Blythe odmieni się jednak, gdy zacznie odkrywać, co kryje się za magią spowijającą Wisterię. I jaka moc drzemie w niej samej, jeśli tylko się dowie, kim naprawdę jest. ",
+  okladka: "/images/wisteria3.jpg",
+},
+{ 
+  id: 78,
+  tytul: "Jak nakazuje ciemność",
+  autor: "Anna Benning",
+  wydawnictwo: "Must Read",
+  cykl: "Mroczne Sigile (tom 2) ",
+  kategorie: ["Fantasy", "Science Fiction"],
+  opis: "Drugi tom zapierającej dech w piersiach trylogii urban fantasy autorki „Vortexu”, Anny Benning!=Mroczne Sigile to najpotężniejsze magiczne artefakty, jakie kiedykolwiek wykonano. Ich magia odbiera powiernikom wszystko, co się liczy – wolność i możliwość podejmowania decyzji w najważniejszych sprawach. Zrozpaczona Rayne widzi tylko jedno wyjście, do którego droga prowadzi przez poszukiwanie owianego tajemnicą ósmego Mrocznego Sigila. Czy dziewczyna zdoła negocjować zarówno z rebeliantami, jak i Lordem Mirroru? Czy da się pogodzić interesy wszystkich stron? I czy świat nie pogrąży się w mroku, jeśli powiernicy przeciwstawią się przeznaczeniu?=MAGIA, KTÓRA ZNIEWALA. PRZEZNACZENIE, KTÓREGO NIE DA SIĘ OSZUKAĆ. ",
+  okladka: "/images/mroscznesivle2.jpg",
+},
+{ 
+  id: 79,
+  tytul: "Królestwo kanciarzy",
+  autor: "Leigh Bardugo",
+  wydawnictwo: " Mag",
+  cykl: "Szóstka wron (tom 2) ",
+  kategorie: ["Fantasy", "Science Fiction"],
+  opis: "Kaz Brekker i jego ekipa dopiero co przeprowadzili skok przekraczający najśmielsze wyobrażenia. Zamiast jednak dzielić sowite zyski, muszą walczyć o życie. Zostali wystawieni do wiatru i poważnie osłabieni; dokucza im brak funduszy, sprzymierzeńców i nadziei.=Na ulicach miasta trwa wojna. Wzajemna lojalność w obrębie ekipy – i tak już krucha i wątpliwa – zostaje wystawiona na ciężką próbę. Kaz i jego ludzie muszą się postarać, żeby znaleźć się po stronie zwycięzców. Bez względu na koszty. ",
+  okladka: "/images/krolowetswokancioarzy.jpg",
+},
+{ 
+  id: 80,
+  tytul: "A imię jej szeptał wiatr",
+  autor: "Laura Green",
+  wydawnictwo: "Papierowe Serca",
+  cykl: null,
+  kategorie: ["Fantasy", "Science Fiction"],
+  opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
+  okladka: "/images/wiatr.jpg",
 },
 
 
