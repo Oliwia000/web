@@ -471,6 +471,16 @@ export const wszystkieKsiazki = [
 },
 { 
   id: 80,
+  tytul: "Eskadra Do Gwiazd",
+  autor: "Janci Patterson, Brandon Sanderson",
+  wydawnictwo: " Zysk i S-ka",
+  cykl: "Skyward (tom 3.5) ",
+  kategorie: ["Fantasy", "Science Fiction"],
+  opis: "Bohaterowie dotarli do gwiazd, ale czy będą gotowi przynieść im wolność…=Zbiór trzech minipowieści osadzonych w świecie cyklu Do Gwiazd, które przedstawiają najważniejsze wydarzenia z perspektywy bohaterów towarzyszących Spensie, rzucając nowe światło na ich rolę w walce z zagrożeniami ze strony galaktycznego Zwierzchnictwa.=FM, pilotka eskadry Do Gwiazd, bada tajemnice technologii kosmicznych ślimaków zdolnych do teleportacji i staje się kluczową postacią w misji zrozumienia ich niezwykłych zdolności. Alanik, należąca do rasy UrDail, stara się zapobiec wojnie domowej na swojej ojczystej planecie i przekonać różne frakcje do walki ze Zwierzchnictwem. Jorgen, lider eskadry, odkrywa swoje szczególne powiązanie ze ślimakami, równocześnie nawiązując sojusze z obcymi rasami, które mogą zadecydować o losach ludzkości.='Obowiązkowa lektura dla fanów opowieści o Spensie. Poznajemy dokładniej wiele unikalnych obcych kultur i tajniki hipernapędu. Istotne uzupełnienie głównego cyklu'. 'Publishers Weekly'. ",
+  okladka: "/images/eskadradwsdogwioazfd.jpg",
+},
+{ 
+  id: 81,
   tytul: "A imię jej szeptał wiatr",
   autor: "Laura Green",
   wydawnictwo: "Papierowe Serca",
@@ -479,6 +489,19 @@ export const wszystkieKsiazki = [
   opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
   okladka: "/images/wiatr.jpg",
 },
+{ 
+  id: 82,
+  tytul: "A imię jej szeptał wiatr",
+  autor: "Laura Green",
+  wydawnictwo: "Papierowe Serca",
+  cykl: null,
+  kategorie: ["Fantasy", "Science Fiction"],
+  opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
+  okladka: "/images/wiatr.jpg",
+},
+
+
+
 
 
 
@@ -496,7 +519,27 @@ export const wszystkieKsiazki = [
   },
   
  
-  
+  //literatura mlodziezowa
+  { 
+    id: 82,
+    tytul: "A imię jej szeptał wiatr",
+    autor: "Laura Green",
+    wydawnictwo: "Papierowe Serca",
+    cykl: null,
+    kategorie: ["Fantasy", "Science Fiction"],
+    opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
+    okladka: "/images/wiatr.jpg",
+  },
+  { 
+    id: 82,
+    tytul: "A imię jej szeptał wiatr",
+    autor: "Laura Green",
+    wydawnictwo: "Papierowe Serca",
+    cykl: null,
+    kategorie: ["Fantasy", "Science Fiction"],
+    opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
+    okladka: "/images/wiatr.jpg",
+  },
   
 
 
