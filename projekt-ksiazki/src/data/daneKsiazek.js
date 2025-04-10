@@ -668,6 +668,36 @@ export const wszystkieKsiazki = [
     okladka: "/images/odwagimuminki.jpg",
   },
 
+  {
+    id: 63,
+    tytul: "Tatuś Muminka i wielka powódź",
+    autor: "Richard Dungworth",
+    wydawnictwo: "HarperCollins Polska, HarperKids",
+    cykl:"Muminki. Książeczki kartonowe  ",
+    kategorie: [ "Literatura dziecięca"],
+    opis: "Jest piękne letnie popołudnie i Muminek chętnie poszedłby nurkować z Panną Migotką. Ale na samą myśl o zamoczeniu uszu ze strachu ściska mu się brzuszek. Chciałby być choć trochę bardziej odważny! Zaraz, ale czy strach nie jest przypadkiem nieodłącznym elementem odwagi? ",
+    okladka: "/images/odwagimuminki.jpg",
+  },
+  {
+    id: 64,
+    tytul: "Muminki. Odwagi, Muminku!",
+    autor: "Richard Dungworth",
+    wydawnictwo: "HarperCollins Polska, HarperKids",
+    cykl:"Muminki. Książeczki kartonowe  ",
+    kategorie: [ "Literatura dziecięca"],
+    opis: "Jest piękne letnie popołudnie i Muminek chętnie poszedłby nurkować z Panną Migotką. Ale na samą myśl o zamoczeniu uszu ze strachu ściska mu się brzuszek. Chciałby być choć trochę bardziej odważny! Zaraz, ale czy strach nie jest przypadkiem nieodłącznym elementem odwagi? ",
+    okladka: "/images/odwagimuminki.jpg",
+  },
+  {
+    id: 65,
+    tytul: "Muminki. Odwagi, Muminku!",
+    autor: "Richard Dungworth",
+    wydawnictwo: "HarperCollins Polska, HarperKids",
+    cykl:"Muminki. Książeczki kartonowe  ",
+    kategorie: [ "Literatura dziecięca"],
+    opis: "Jest piękne letnie popołudnie i Muminek chętnie poszedłby nurkować z Panną Migotką. Ale na samą myśl o zamoczeniu uszu ze strachu ściska mu się brzuszek. Chciałby być choć trochę bardziej odważny! Zaraz, ale czy strach nie jest przypadkiem nieodłącznym elementem odwagi? ",
+    okladka: "/images/odwagimuminki.jpg",
+  },
 
 
 ];
