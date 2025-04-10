@@ -567,10 +567,6 @@ export const wszystkieKsiazki = [
     opis: "Dwóch braci trafia do magicznego świata Nangijali...",
     okladka: "/images/bracialwie.jpg",
   },
-
-
-
-
   {
     id: 53,
     tytul: "Koniec i początek świata",
@@ -580,6 +576,66 @@ export const wszystkieKsiazki = [
     kategorie: ["Literatura dziecięca"],
     opis: "Oto historia córki Niemki i Polaka, urodzonej na Ukrainie. Wspaniałe, szczęśliwe dzieciństwo zostało brutalnie przerwane przez śmierć ojca i rewolucyjną zawieruchę. Wrażliwa i inteligentna dziewczynka rozpaczliwie szuka swojego miejsca na ziemi, swej ojczyzny. Zafascynowana książką o Polsce, poruszona historią dzieci z Wrześni decyduje - jestem Polką! Późniejsze lata - dzieciństwo w domu przybranych rodziców, nauka, pierwsze przyjaźnie i miłości - to ciągłe 'uczenie się Polski'. Jakże często gorzkie, jakże często bolesne! ",
     okladka: "/images/koniecipoczątek.jpg",
+  },
+  {
+    id: 54,
+    tytul: "Gustaw jest żabą",
+    autor: "Alex Latimer",
+    wydawnictwo: "Zielona Sowa",
+    cykl: null,
+    kategorie: ["Literatura dziecięca"],
+    opis: "Poznajcie Gustawa!=Gustaw był kiedyś maleńkim jajeczkiem, a potem kijanką. Bardzo szybko się zmieniał, co było szalenie ekscytujące. Aż stał się żabą.'Czyżby to miał być koniec zmian?', zastanawia się Gustaw. 'Niedźwiedź ma wspaniałe pazury, jeleń imponujące poroże, czapla majestatyczne skrzydła… a ja? Co ja mam niezwykłego?'.=Gustaw z niecierpliwością wyczekiwał kolejnej przemiany. Czekał i czekał… ale nic już się nie działo. Gustaw nie chce być tylko żabą! Ze smutku zakopuje się w mule na dnie stawu i ukrywa przed światem. Czy rybka, ślimak i krewetka zdołają przekonać go, że bycie żabą to coś wyjątkowego?",
+    okladka: "/images/hustazaba.jpg",
+  },
+  {
+    id: 55,
+    tytul: "Jak wytresować smoka",
+    autor: "Cressida Cowell",
+    wydawnictwo: "Replika",
+    cykl: "Jak wytresować smoka (tom 1)" ,
+    kategorie: ["Literatura dziecięca"],
+    opis: "Halibut Straszliwa Czkawka Trzeci – dla przyjaciół po prostu Czkawka – jest synem szanowanego wodza klanu wikingów. Oznacza to zarazem, że jest dziedzicem tronu. Chłopak jednak nie czuje się wyjątkowy i nie dostrzega w sobie zadatków na przyszłego bohatera i władcę.=Tym niemniej ma przed sobą zadanie do wykonania. Aby wstąpić w szeregi klanu, wraz ze swoimi kompanami musi wybrać, a następnie wytresować własnego smoka. Kto temu nie podoła, zostanie wygnany!=Jak wytresować smoka to zabawna, pełna szalonych przygód opowieść, od której nie sposób się oderwać!=Historia, która zainspirowała twórców filmowych i którą pokochali czytelnicy na całym świecie! ",
+    okladka: "/images/jakwyresacasmoka1.jpg",
+  },
+  {
+    id: 56,
+    tytul: "Jak wytresować smoka. Drapieżne smoki dla początkujących ",
+    autor: "Cressida Cowell",
+    wydawnictwo: "Znak emotikon",
+    cykl: " Jak wytresować smoka (tom 6) ",
+    kategorie: [ "Literatura dziecięca"],
+    opis: "Halibut Straszliwa Czkawka Trzeci chciałby tylko miło spędzić urodziny. Ale jego ojciec, wódz wikingów Stoick Wielgi, ma inne plany. Chce zdobyć bezcenny egzemplarz podręcznika „Jak wytresować smoka” i zagrać na nosie plemieniu Włamywaczek. Kamikazia wpada na pomysł, by wykraść książkę z Biblioteki Publicznej Zakutych Pał. Świetny plan, co? WRĘCZ PRZECIWNIE. Zbiorów Biblioteki strzeże bowiem Szkaradny Bibliotekarz z zastępem czterystu strażników uzbrojonych po zęby. Wygląda na to, że Czkawkę czekają niezapomniane urodziny.",
+    okladka: "/images/drapieznesmokipoczat6.jpg",
+  },
+  {
+    id: 57,
+    tytul: "Bracia Lwie Serce",
+    autor: "Astrid Lindgren",
+    wydawnictwo: "Nasza Księgarnia",
+    cykl: null,
+    kategorie: ["Fantasy", "Literatura dziecięca"],
+    opis: "Dwóch braci trafia do magicznego świata Nangijali...",
+    okladka: "/images/bracialwie.jpg",
+  },
+  {
+    id: 58,
+    tytul: "Bracia Lwie Serce",
+    autor: "Astrid Lindgren",
+    wydawnictwo: "Nasza Księgarnia",
+    cykl: null,
+    kategorie: ["Fantasy", "Literatura dziecięca"],
+    opis: "Dwóch braci trafia do magicznego świata Nangijali...",
+    okladka: "/images/bracialwie.jpg",
+  },
+  {
+    id: 59,
+    tytul: "Bracia Lwie Serce",
+    autor: "Astrid Lindgren",
+    wydawnictwo: "Nasza Księgarnia",
+    cykl: null,
+    kategorie: ["Fantasy", "Literatura dziecięca"],
+    opis: "Dwóch braci trafia do magicznego świata Nangijali...",
+    okladka: "/images/bracialwie.jpg",
   },
 
 
