@@ -86,12 +86,6 @@ function KategoriaBoczna({ wybierzKategorie }) {
           🔞 18+
         </li>
         <li 
-          className={aktywnaKategoria === "16+" ? "active-category" : ""} 
-          onClick={() => zmienKategorie("16+")}
-        >
-          🔞 16+
-        </li>
-        <li 
           className={aktywnaKategoria === "Literatura młodzieżowa" ? "active-category" : ""} 
           onClick={() => zmienKategorie("Literatura młodzieżowa")}
         >
