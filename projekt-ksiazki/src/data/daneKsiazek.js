@@ -479,25 +479,16 @@ export const wszystkieKsiazki = [
   opis: "Bohaterowie dotarli do gwiazd, ale czy będą gotowi przynieść im wolność…=Zbiór trzech minipowieści osadzonych w świecie cyklu Do Gwiazd, które przedstawiają najważniejsze wydarzenia z perspektywy bohaterów towarzyszących Spensie, rzucając nowe światło na ich rolę w walce z zagrożeniami ze strony galaktycznego Zwierzchnictwa.=FM, pilotka eskadry Do Gwiazd, bada tajemnice technologii kosmicznych ślimaków zdolnych do teleportacji i staje się kluczową postacią w misji zrozumienia ich niezwykłych zdolności. Alanik, należąca do rasy UrDail, stara się zapobiec wojnie domowej na swojej ojczystej planecie i przekonać różne frakcje do walki ze Zwierzchnictwem. Jorgen, lider eskadry, odkrywa swoje szczególne powiązanie ze ślimakami, równocześnie nawiązując sojusze z obcymi rasami, które mogą zadecydować o losach ludzkości.='Obowiązkowa lektura dla fanów opowieści o Spensie. Poznajemy dokładniej wiele unikalnych obcych kultur i tajniki hipernapędu. Istotne uzupełnienie głównego cyklu'. 'Publishers Weekly'. ",
   okladka: "/images/eskadradwsdogwioazfd.jpg",
 },
-{ 
-  id: 81,
-  tytul: "A imię jej szeptał wiatr",
-  autor: "Laura Green",
-  wydawnictwo: "Papierowe Serca",
-  cykl: null,
-  kategorie: ["Fantasy", "Science Fiction"],
-  opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
-  okladka: "/images/wiatr.jpg",
-},
+
 { 
   id: 82,
-  tytul: "A imię jej szeptał wiatr",
-  autor: "Laura Green",
-  wydawnictwo: "Papierowe Serca",
-  cykl: null,
+  tytul: "Dwór Gór Wysokich",
+  autor: "A.K. Mulford",
+  wydawnictwo: "BeYa",
+  cykl: "Królestwa Okrith (tom 1) ",
   kategorie: ["Fantasy", "Science Fiction"],
-  opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
-  okladka: "/images/wiatr.jpg",
+  opis: " Wszystko wskazywało na to, że Remy była jedyną czerwoną czarownicą, która przeżyła i nie straciła wolności. Trzynaście lat temu okrutny Król Północnego Dworu podbił jej ojczyznę, Dwór Gór Wysokich, i bezwzględnie wymordował całą rodzinę, a następnie wyznaczył nagrodę za głowę każdej czerwonej czarownicy, której udało się uciec. Od trzynastu lat każdy dzień przynosił Remy strach. Czarownica musiała się ukrywać i uważać na każdy swój krok. Chciała przetrwać.=Tamtego dnia wszystko się zmieniło, została zdemaskowana. Próba ucieczki na nic się nie zdała. Pięknooki młodzieniec jednak jej nie zabił. Przedstawił się jako Hale, Książę Wschodniego Dworu. Nie potrzebował jej śmierci, szukał tylko pomocy. Hale postanowił ustrzec swoją krainę przed losem upadłego Dworu Gór Wysokich. W tym celu musiał pokonać Króla Północy. Aby to zrobić, potrzebował magii czerwonej czarownicy.=Remy szybko zrozumiała, że dzięki księciu ma szansę na ocalenie siebie, swojego ludu i obalenie morderczego tyrana. Marzyła, aby Dwór Gór Wysokich dźwignął się z ruin i powrócił do swojej świetności. Bała się jednak zaufać Hale'owi. Plan, który jej nakreślił, wymagał ogromnej odwagi i ogromnego szczęścia. Niósł ze sobą ryzyko strasznej śmierci. Hale chciał, aby Remy udała się z nim w niebezpieczną podróż w poszukiwaniu starożytnych talizmanów o ogromnej mocy.=Czy jesteś gotowa zmierzyć się ze swoim prawdziwym dziedzictwem?",
+  okladka: "/images/dworgorwyskocih.jpg",
 },
 
 
@@ -521,27 +512,104 @@ export const wszystkieKsiazki = [
  
   //literatura mlodziezowa
   { 
-    id: 82,
-    tytul: "A imię jej szeptał wiatr",
-    autor: "Laura Green",
-    wydawnictwo: "Papierowe Serca",
-    cykl: null,
-    kategorie: ["Fantasy", "Science Fiction"],
-    opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
-    okladka: "/images/wiatr.jpg",
+    id: 83,
+    tytul: "The Only Light Left Burning. Dopóki płonie nadzieja ",
+    autor: "Erik J. Brown",
+    wydawnictwo: "Must Read",
+    cykl: "To, co zostaje po końcu świata (tom 2) ",
+    kategorie: ["Literatura młodzieżowa"],
+    opis: "Kontynuacja bestsellerowego postapokaliptycznego queerowego romansu 'All That's Left in the World'=Po pełnej niebezpieczeństw wędrówce Andrew i Jamie w końcu odnaleźli bezpieczną przystań na Florydzie. Jeszcze bardziej zakochani zaczynają budować nowe życie w przyjaznej społeczności. Jednak wkrótce staje się jasne, że każdy z nich pragnie czegoś innego.=Jamie jest gotowy ruszyć w dalszą drogę i wieść spokojne życie tylko we dwóch.=Andrew chciałby zostać na miejscu i stworzyć dom w otoczeniu przyjaciół.=Gdy w archipelag uderza huragan, bohaterowie zmuszeni są wyruszyć z powrotem w dzicz, gdzie grozi im natknięcie się na starych wrogów. I znów nie wiedzą, komu mogą zaufać.=Czy odnajdą drogę powrotną do domu… i do siebie nawzajem? ",
+    okladka: "/images/plonienadziejadopoku.jpg",
   },
   { 
-    id: 82,
-    tytul: "A imię jej szeptał wiatr",
-    autor: "Laura Green",
-    wydawnictwo: "Papierowe Serca",
-    cykl: null,
-    kategorie: ["Fantasy", "Science Fiction"],
-    opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
-    okladka: "/images/wiatr.jpg",
+    id: 84,
+    tytul: "Elena. W ostatniej sekundzie",
+    autor: "Nele Neuhaus",
+    wydawnictwo: "Must Read",
+    cykl: " Elena (tom 7) ",
+    kategorie: ["Literatura młodzieżowa"],
+    opis: "Siódmy tom bestsellerowej serii o Elenie, jej walce o konie i o… miłość=Czystym przypadkiem Elena i Melike w czasie przejażdżki po lesie trafiają na dwa skrajnie zaniedbane konie. Dzięki szalonej i całkowicie spontanicznej akcji ratują je przed śmiercią dosłownie w ostatniej chwili. Kiedy Elena zaczyna czuć przywiązanie do kasztanowatego wałacha Priamosa, dowiaduje się, co się stało, że znalazł się w tak strasznym stanie – jego właściciel zmarł w nie do końca jasnych okolicznościach. Kiedy przyjaciółki orientują się, że mogło dojść do przestępstwa, na własną rękę zaczynają szukać prawdy, co sprowadza na nie śmiertelne niebezpieczeństwo. Lecz to nie jedyny problem, który spędza Elenie sen z powiek: Farid otrzymuje od bardzo znanego klubu piłkarskiego ofertę nie do odrzucenia… ",
+    okladka: "/images/elenaosrania.jpg",
   },
-  
+  { //!!!!!!!!!
+    id: 86,
+    tytul: "Ballada jednej nocy",
+    autor: "Mateusz Cieślik",
+    wydawnictwo: "Must Read",
+    cykl: null,
+    kategorie: ["Literatura młodzieżowa"],
+    opis: "Oto Ballada na miarę czasów! Intryga, miłość, zazdrość, zdrada i pościg, a w tle nieustanne powiadomienia z aplikacji. On planuje popełnić samobójstwo, a ona nakryć chłopaka na zdradzie. Nie znają się, ale odkąd ich drogi się skrzyżują, losy obojga zaczną podążać w zupełnie innych kierunkach niż dotychczas. Spotkanie tuż przed północą na odludnej polanie rozpocznie szaloną jazdę pełną ostrych zakrętów.=Ballada to przede wszystkim opowieść o samotności i próbie odnalezienia się w czasach, w których nawet nie trzeba wyjść z domu, by za pomocą telefonu zaliczyć każdą imprezę, i w których można mieć tysiące znajomych, ale żadnej bliskiej relacji. Momentami mroczna i gorzka, chwilami pełna humoru, w całej rozciągłości szalona i zaskakująca. Miejscami trudna, ale jednak dająca nadzieję. ",
+    okladka: "/images/balaldajednejnocvy.jpg",
+  },
+  { //!!!
+    id: 87,
+    tytul: "Games Untold. Miłość to władza",
+    autor: "Jennifer Lynn Barnes",
+    wydawnictwo: "Must Read",
+    cykl: "The Inheritance Games (tom 5) ",
+    kategorie: ["Literatura młodzieżowa"],
+    opis: "Nowa kolekcja opowieści obfitujących w romantyczne uniesienia, luksusy i tajemnice wprowadza czytelników jeszcze głębiej w uniwersum bestsellerowej serii The Inheritance Games i przynosi odpowiedzi na nurtujące pytania.=Playboy cierpiący na amnezję i kobieta, której nie brakuje powodów, by go nienawidzić. Ryzykant, jego ulubiona dziedziczka i trzy noce w Pradze. Nieprawdopodobny związek kowboja z gotką. Czterej nierozłączni bracia wspierani przez rodzinę i przyjaciół w niesamowitym domu pełnym niespodzianek, w którym na każdym kroku czekają nadal nieodkryte tajemnice.=Poznajcie ich historie, opowiadające o miłości i stracie, potędze, zagadkach oraz tajemnicach życia i śmierci. Przybliży je wam ta niezwykle romantyczna kolekcja, która udowadnia, że kiedy Hawthorne'owie kochają, to zawsze na sto procent. ",
+    okladka: "/images/4RTOMGRY.jpg",
+  },
 
+  { 
+    id: 89,
+    tytul: "The Inheritance Games ",
+    autor: "Jennifer Lynn Barnes",
+    wydawnictwo: "Must Read",
+    cykl: "The Inheritance Games (tom 1) ",
+    kategorie: ["Literatura młodzieżowa"],
+    opis: "Fortuna w spadku. Spadkobierczyni znikąd. Czterej rywale.=Pierwszy tom bestsellerowej trylogii pełnej twistów, sekretów i niebezpieczeństw.=Avery Grambs chce przetrwać szkołę średnią, zdobyć stypendium i uciec od swojego dotychczasowego życia. Ale jej losy zmieniają się w jednej chwili, gdy umiera miliarder Tobias Hawthorne i zostawia jej praktycznie cały swój majątek. To jakaś pułapka? Avery nie ma pojęcia, nigdy na oczy nie widziała Tobiasa Hawthorne’a. Aby otrzymać swoje dziedzictwo, Avery musi przenieść się do rozległego, pełnego sekretnych przejść i zagadek Hawthorne House, zajmowanego również przez rodzinę, którą właśnie wywłaszczył stary miliarder. Jego czterech błyskotliwych wnuków dorastało w przekonaniu, że odziedziczą fortunę. Czy Avery jest oszustką, czy też ostatnią zagadką dziadka, który uwielbiał zaskakiwać wnuków? Uwięziona w świecie bogactwa i przywilejów dziewczyna zostanie wciągnięta w niebezpieczną grę. ",
+    okladka: "/images/tom12graosapdek.jpg",
+  },
+  { 
+    id: 90,
+    tytul: "Największa gra",
+    autor: "Jennifer Lynn Barnes",
+    wydawnictwo: "Must Read",
+    cykl: "The Grandest Game (tom 1) ",
+    kategorie: ["Literatura młodzieżowa"],
+    opis: " Siedem biletów. Na szali miliony dolarów. Zaczyna się nowa gra.=Zanurz się w świecie gier, zagadek, niebezpieczeństw, romantycznych uczuć i oszałamiającego bogactwa nowej serii z uniwersum The Inheritance Games. Ulubieni bohaterowie i nowe postaci zderzą się ze sobą w grze, której nigdy nie zapomnisz. Czy masz w sobie wszystko, co trzeba, żeby zagrać?=Zapraszamy do Największej Gry, konkursu organizowanego co roku przez czterech braci Hawthorne'ów i miliarderkę Avery Grambs, spadkobierczynię ich rodzinnej fortuny. Przepustką do udziału w tegorocznej grze jest jeden z siedmiu złotych biletów. Stawką są miliony dolarów, więc siedmioro graczy posunie się do wszystkiego.",
+    okladka: "/images/tgefardnnowaopoweisc.jpg",
+  },
+
+
+  //obyczajowa
+  { //!
+    id: 88,
+    tytul: "Każdą cząstką serca",
+    autor: "Rebecca Yarros",
+    wydawnictwo: "Must Read",
+    cykl: "Flight & Glory (tom 2) ",
+    kategorie: ["Literatura obyczajowa", "Romans"],
+    opis: " Autorka bestsellerowej serii „Fourth Wing”, która rozpaliła serca milionów osób na całym świecie.=Zakazana miłość, adrenalina i wybór, który może zmienić wszystko. Tę historię poczujesz każdą cząstką serca.=Dwudziestoletnią Paisley Donovan rodzice traktują z największą troską. Być może cierpi na tę samą chorobę, na którą zmarła jej siostra, ale zamierza doświadczyć w życiu jak najwięcej, nawet jeśli byłoby to niebezpieczne. Pewnego dnia Jagger Bateman ratuje ją z wody i nie tylko wdmuchuje powietrze do jej płuc, ale również rozpala duszę.=Jagger uczy się w prestiżowej akademii lotniczej. Jest przystojny, lekkomyślny i idealny dla dziewczyny, która pragnie zakosztować pełni życia. Jednak Paisley to córka jego dowódcy, a jej chłopak to największy rywal Jaggera. Dziewczyna musi zdecydować, jak bardzo zdoła zaryzykować dla człowieka, przez którego zbyt mocno bije jej nadwyrężone serce.=Wkraczają na niebezpieczne terytorium - jeden zły ruch, a rozbiją się i spłoną…",
+    okladka: "/images/kazdaczestakserexa.jpg",
+  },
+
+
+
+
+//fanstasy
+{  //!!!!!!!!!!
+  id: 81,
+  tytul: "Velvet",
+  autor: "S.C. Alekto",
+  wydawnictwo: "Black Rose",
+  cykl: "Regnum Noctis (tom 2) ",
+  kategorie: ["Fantasy", ],
+  opis: "Świat pełen jest krwiożerczych potworów, których królem jest czas…=Tonny jest martwa dla wampirzej społeczności. Ukrywa swoje istnienie, cierpliwie czekając na dzień, w którym będzie mogła zmartwychwstać.=Staje przed trudną decyzją. Jeśli ponownie chce być częścią życia ukochanego, musi włożyć garnitur i białe rękawiczki, by na nowo wcielić się w rolę Sommeliera.=Pogrążony w rozpaczy Thaddeus przez dziesięć lat żył niczym więzień. Niespodziewane spotkanie z Tonny napawa go nadzieją na przyszłość.=Ich uczucie zostaje wystawione na kolejną próbę. Okazuje się, że przeszkodą na drodze do wspólnego szczęścia nie jest już Charioce de la Gardie, lecz świadomość, że jedno z nich jest śmiertelne, podczas gdy drugie pozostaje wieczne.=Śmierć – niosąca wieczność – dla której miłość jest największą przeszkodą.=Bo to nie miłość potrzebuje nieśmiertelności, lecz nieśmiertelność żąda miłości… ",
+  okladka: "/images/veltefantsa.jpg",
+},
+{  //!!!!!!!!!!
+  id: 85,
+  tytul: "Vermillion",
+  autor: "S.C. Alekto",
+  wydawnictwo: "Black Rose",
+  cykl: "Regnum Noctis (tom 1)  ",
+  kategorie: ["Fantasy", ],
+  opis: "Z klatki Baby Jagi pod skrzydła innego potwora...=W świecie Tonny od zawsze istniały potwory. Pewnego dnia zostaje adoptowana przez najprawdziwszego z nich i odnajduje świat skryty przed promieniami słońca.Bycie Sommelierem, którego kluczowym zadaniem jest zapewnienie wina swojemu panu, staje się jej drugą naturą. Pośród wampirzej społeczności dziewczyna buduje nowe życie, jednak wszystko ulega drastycznej zmianie, gdy jej Lord umiera.=Zamek dziedziczy kolejny władca nocy, który sprowadza własnego służącego.=Choć Thaddeus od początku nie kryje niechęci w stosunku do Tonny, to oboje muszą znosić swoje towarzystwo do czasu, aż dziewczyna będzie mogła odejść.=Zazdrość i żądza władzy, nienawiść oraz miłość.=Wszystko ma swój czas, a tragedia nadchodzi... ",
+  okladka: "/images/vermiliops1.jpg",
+},
 
 
 
