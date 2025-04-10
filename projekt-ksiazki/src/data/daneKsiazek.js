@@ -52,16 +52,17 @@ export const wszystkieKsiazki = [
       okladka: "/images/miasto.jpg",
     },
     {
-      id: 39,
+      id: 6,
       tytul: "Martwy ciąg",
       autor: "Tomasz Kozioł",
       wydawnictwo: "Wydawnictwo Mięta",
+      cykl: null,
       kategorie: ["Horror"],
       opis: "Andrzej potrafi w życiu jedno – podnosić ciężkie rzeczy i je odkładać.=Uciekając przed przeszłością, trafia do miejsca, które miało stać się dla niego furtką do lepszego życia. Otoczony przez zrujnowane tereny pofabryczne warszawskiej Pragi, Andrzej próbuje odnaleźć się w nowo powstałej siłowni. Razem z trzema innymi chłopakami trafiają tam pod skrzydła trenera Stalińskiego, dla którego pracują za wikt i opierunek.=Niedobory jedzenia, praca od świtu do nocy i brak czasu na trening wydają się akceptowalną ceną za nadzieję na lepsze jutro. Jednak gdy na terenie siłowni dochodzi do śmiertelnego wypadku, sytuacja Andrzeja w kilka chwil zmienia się z trudnej w niemożliwą. Trup to zła wiadomość dla biznesu trenera Stalińskiego. Trupa trzeba się pozbyć. Za wszelką cenę. A kara za niesubordynację może być tylko jedna, ostateczna.=Dni zaczynają się zlewać z nocą, jawa miesza się z koszmarami, a każdy z więźniów siłowni przeżywa własny horror. Andrzej staje przed wyborem: uciekać czy po raz pierwszy stawić czoło swoim demonom? Tylko czy starczy mu siły, by dźwignąć największy ciężar w swoim życiu? ",
       okladka: "/images/martwyciag.jpg",
     },
     {
-      id: 40,
+      id: 7,
       tytul: "Rook",
       autor: "Graham Masterton",
       wydawnictwo: "Albatros",
@@ -71,7 +72,7 @@ export const wszystkieKsiazki = [
       okladka: "/images/rook.jpg",
     },
     {
-      id: 41,
+      id: 8,
       tytul: "Kły i pazury",
       autor: "Graham Masterton",
       wydawnictwo: "Albatros",
@@ -81,7 +82,7 @@ export const wszystkieKsiazki = [
       okladka: "/images/klyipazury.jpg",
     },
     {
-      id: 42,
+      id: 9,
       tytul: "Strach",
       autor: "Graham Masterton",
       wydawnictwo: "Albatros",
@@ -91,7 +92,7 @@ export const wszystkieKsiazki = [
       okladka: "/images/gracham2.jpg",
     },
     {
-      id: 43,
+      id: 10,
       tytul: "Ogród zła",
       autor: "Graham Masterton",
       wydawnictwo: "Albatros",
@@ -101,7 +102,7 @@ export const wszystkieKsiazki = [
       okladka: "/images/ogrodzlagarham.jpg",
     },
     {
-      id: 44,
+      id: 11,
       tytul: "Złodziej dusz",
       autor: "Graham Masterton",
       wydawnictwo: "Albatros",
@@ -111,16 +112,17 @@ export const wszystkieKsiazki = [
       okladka: "/images/zlodzoejduch7.jpg",
     },
     {
-      id: 45,
+      id: 12,
       tytul: "Syrena",
       autor: "Graham Masterton",
       wydawnictwo: "Prószyński i S-ka",
+      cykl: null,
       kategorie: ["Horror"],
       opis: "Piąta część ośmiotomowej serii horrorów, opowiadającej o budzących przerażenie przygodach Jima Rooka – nauczyciela języka angielskiego i wychowawcy klasy specjalnej w West Grove Community College w Los Angeles.=Wiele lat temu Jim Rook, jeden z najwyrazistszych i najbardziej lubianych bohaterów w twórczości Mastertona, omal nie umarł na skutek powikłań po poważnym zapaleniu płuc. Od tego czasu posiada wyjątkowe umiejętności postrzegania zjawisk nadprzyrodzonych, a także komunikowania się z duchami.=Zbliża się koniec roku szkolnego. Jim Rook będzie musiał pożegnać się nie tylko z podopiecznymi ze swojej drugiej klasy specjalnej, ale też z college’em, w którym pracuje od lat. Dostał propozycję posady w Ministerstwie Oświaty w Waszyngtonie. Siedzi już na walizkach, kiedy odwiedza go Jennie, jego dawna uczennica. Zrozpaczona kobieta, której syn utopił się w przydomowym basenie, nie wierzy, że był to wypadek. Jest przekonana, że do nieszczęścia doszło za sprawą jakiejś mrocznej siły, a nikt nie zna ich tak dobrze jak jej wychowawca sprzed lat.=Jim na początku uważa, że Jennie próbuje w ten sposób pogodzić się ze stratą. Kiedy jednak podczas surfowania tonie chłopiec z jego klasy i policja podejrzewa, że został wciągnięty pod wodę, a jedna z uczennic, którą ktoś – lub coś – próbował utopić we wrzątku, z ciężkimi oparzeniami ląduje w szpitalu, Jim zdaje sobie sprawę, że w grę wchodzą siły, z którymi tylko on będzie w stanie sobie poradzić. Waszyngton może poczekać; on musi zostać w Los Angeles i chronić swoich podopiecznych przed jednym z wodnych duchów, które istnieją od wieków i są nazywane Syrenami.",
       okladka: "/images/syrena5gra.jpg",
     },
     {
-      id: 46,
+      id: 13,
       tytul: "Miasteczko Salem",
       autor: "Stephen King",
       wydawnictwo: "Albatros",
@@ -130,10 +132,11 @@ export const wszystkieKsiazki = [
       okladka: "/images/miastczkosalemking.jpg",
     },
     {
-      id: 47,
+      id: 14,
       tytul: "Szkieletowa załoga",
       autor: "Stephen King",
       wydawnictwo: "Prószyński i S-ka",
+      cykl: null,
       kategorie: ["Horror"],
       opis: "O tym, że Stephen King jest mistrzem długich, rozbudowanych powieści o wielu przeplatających się wątkach, wszyscy wiedzą od dawna. Utwory zamieszczone w niniejszym zbiorze dobitnie przeczą tezie, jakoby doskonały powieściopisarz nie mógł być również znakomitym twórcą krótkich form literackich. Lektura tych doskonale skonstruowanych, opartych na zaskakujących, oryginalnych pomysłach i oczywiście wspaniale napisanych opowiadań daje miłośnikom prozy Stephena Kinga co najmniej tyle satysfakcji co najobszerniejsze z jego powieści.=Zbiór „Szkieletowa załoga” obejmuje m.in. opowiadanie „Małpa”, zekranizowane w 2025 r. (scenariusz i reżyseria Osgood Perkins). ",
       okladka: "/images/szkieletowazalogaking.jpg",
@@ -142,25 +145,27 @@ export const wszystkieKsiazki = [
 
     // 🔍 KRYMINAŁ 🔍
     {
-      id: 6,
+      id: 15,
       tytul: "Dziewczyna z pociągu",
       autor: "Paula Hawkins",
       wydawnictwo: "Świat Książkie",
+      cykl: null,
       kategorie: ["Kryminał", "Thriller"],
       opis: "Rachel każdego ranka dojeżdża do pracy tym samym pociągiem. Wie, że pociąg zawsze zatrzymuje się przed tym samym semaforem, dokładnie naprzeciwko szeregu domów.  Zaczyna się jej nawet wydawać, że zna ludzi, którzy mieszkają w jednym z nich. Uważa, że prowadzą doskonałe życie. Gdyby tylko mogła być tak szczęśliwa jak oni.. I nagle widzi coś wstrząsającego. Widzi tylko przez chwilę, bo pociąg rusza, ale to wystarcza. Wszystko się zmienia. Rachel ma teraz okazję stać się częścią życia ludzi, których widywała jedynie z daleka. Teraz się przekonają, że jest kimś więcej niż tylko dziewczyną z pociągu.",
       okladka: "/images/pociąg.jpg",
     },
     {
-      id: 7,
+      id: 16,
       tytul: "W pułapce",
       autor: "Magda Stachula",
       wydawnictwo: "Znak Literanova",
+      cykl: null,
       kategorie: ["Kryminał", "Thriller","Sensacja"],
       opis: "Klara budzi się rano na klatce schodowej. Nie pamięta, co się działo w nocy, nie wie, jak wróciła do domu. Z przerażeniem orientuje się, że od imprezy, na którą wyszła w sobotę, minęły dwa dni.  Odkrywa dziwne ślady na swoim ciele. A później dowiaduje się, że parę miesięcy wcześniej inną kobietę spotkało coś bardzo podobnego. Postanawia się z nią skontaktować.  I wtedy ktoś podrzuca jej dziwny prezent.   -  Co stało się z tamtą dziewczyną?  - Czy Klara będzie następna?  - I co tak naprawdę jej grozi?   Mistrzyni thrillera psychologicznego wraca z nową powieścią, która przeraża i uzależnia jak nigdy.",
       okladka: "/images/pułapce.jpg",
     },
     {
-      id: 8,
+      id: 17,
       tytul: "Cisza białego miasta",
       autor: "Eva García Sáenz de Urturi",
       wydawnictwo: "Muza",
@@ -170,19 +175,21 @@ export const wszystkieKsiazki = [
       okladka: "/images/ciszamiasta.jpg",
     },
     {
-      id: 9,
+      id: 18,
       tytul: "Dublerka",
       autor: "Sophie Hannah , Clare Mackintosh ",
       wydawnictwo: ": Albatros",
+      cykl: null,
       kategorie: ["Kryminał","Sensacja"],
       opis: "Wiem, co zrobiłaś=Wiem, kim jesteś=Znam cię=Najbardziej prestiżowa akademia sztuk scenicznych w Londynie.=Główna rola w szkolnym przedstawieniu może otworzyć drogę do kariery.=Cztery dziewczyny, dotąd tworzące zgraną paczkę, stają się konkurentkami. I piąta, która wydaje się najgroźniejsza, nie tylko jeśli chodzi o wynik rywalizacji. Ale tak naprawdę to ich matki startują w wyścigu szczurów i nie cofną się przed niczym. A każda ma swoje tajemnice – mniej lub bardziej niewinne… Niektóre nawet mordercze.-Matki ---Kendall – żona Hollywoodu, która pragnie rozpocząć nowe życie w Londynie. Carolyn – profesor prawa, w skrytości marząca o zupełnie innej karierze. Elise – skupiona wyłącznie na swojej firmie. Bronnie –idealna gospodyni domowa. Nie mogłyby się bardziej różnić. Ale łączy jej jedno: wszystkie walczą o dobro własnych córek, choć każda rozumie je po swojemu.-Córki---Ruby – niestabilna psychicznie intrygantka. Jess – wyjątkowo utalentowana. Sadie – mająca najmniejsze szanse na sukces. Bel – marzenie wszystkich rodziców. Podobnie jak ich matki, różnią się między sobą, a jednak trzymają się razem. Choć w przeszłości doszło między nimi do poważnych konfliktów, które je podzieliły, wybaczyły sobie. Najbardziej prestiżowa w Londynie szkoła sztuk scenicznych jest jednak miejscem, gdzie ambicje dziewcząt ścierają się w sposób, który może skończyć się tragicznie.==Ta nowa===Jej pojawienie się miało załagodzić relacje między czwórką uczennic. Tymczasem konflikty eskalują do tego stopnia, że zagraża to już nie tylko zdrowiu psychicznemu dziewcząt, ale też ich życiu.===Ktoś sieje terror i szkoła zaczyna przypominać kłębowisko żmij.=====",
       okladka: "/images/dublerka.jpg",
     },
     {
-      id: 10,
+      id: 19,
       tytul: "Mursz",
       autor: "Ewa Przydryga",
       wydawnictwo: "Muza",
+      cykl: null,
       kategorie: ["Kryminał", "Thriller"],
       opis: "Las, który odcisnął krwawe piętno na życiu okolicznych mieszkańców, przypieczętuje także jej los…=Pola z trudem usiłuje wrócić do nowego życia bez męża i syna. Po zakończeniu terapii regularnie koresponduje z Kasandrą, z którą zaprzyjaźniła się podczas pobytu w szpitalu. Wkrótce w ręce Poli trafia list, zupełnie inny niż poprzednie, będący zapowiedzią samobójstwa przyjaciółki.=Ujawniony w liście sekret prowadzi Polę do owianego złą sławą Murszu, wymarłej części kaszubskiego lasu. To tam rok wcześniej została zamordowana Lara, koleżanka Kasandry. Wyznania Kas rzucają jednak zupełnie nowe światło na makabryczne zdarzenia tamtej nocy. =Każda z leśnych dróg prowadzi Polę pod drzwi tajemniczej spalonej leśniczówki. Strawiona ogniem chata skrywa mroczne sekrety lasu i mieszkających w nim ludzi. Tych żyjących i tych, którzy na przestrzeni lat w tragicznych okolicznościach stracili tu życie. ",
       okladka: "/images/mursz.jpg",
@@ -190,7 +197,7 @@ export const wszystkieKsiazki = [
 
     //Thiller
     {
-      id: 16,
+      id: 20,
       tytul: "Kolekcjoner lalek",
       autor: "Katarzyna Bonda",
       wydawnictwo: "Muza",
@@ -200,7 +207,7 @@ export const wszystkieKsiazki = [
       okladka: "/images/lalek.jpg",
     },
     {
-      id: 17,
+      id: 21,
       tytul: "Bezkarny",
       autor: "Remigiusz Mróz",
       wydawnictwo: "Filia",
@@ -211,11 +218,11 @@ export const wszystkieKsiazki = [
     },
 
     {
-      id: 26,
+      id: 22,
       tytul: "Błyski w mroku",
       autor: "Stacy Willingham",
       wydawnictwo: "Agora",
-      cykl: "",
+      cykl: null,
       kategorie: ["Thriller", "Sensacja","Kryminał"],
       opis: "Potwory nie czają się w mroku. Prawdziwe potwory żyją wśród nas.==Gdy Chloe Davis miała dwanaście lat, w jej rodzinnym miasteczku na amerykańskim Głębokim Południu zaczęły znikać nastoletnie dziewczęta. Nim parne luizjańskie lato dobiegło końca, ojciec Chloe został zatrzymany w związku z zaginięciami, a cała ich dotąd szczęśliwa rodzina dosłownie rozpadła się na drobne kawałki.==Teraz, 20 lat później, Chloe pracuje jako psychoterapeutka i jest już prawie gotowa uznać, że jej życie wróciło na właściwe tory. Ale wystarczy jeden telefon od dziennikarza, który zadaje niewygodne pytania o przeszłość, aby koszmar ożył na nowo. Zbliża się 20 rocznica zaginięć, a Chloe będzie musiała zweryfikować, co wówczas było prawdą, a co jedynie wytworem dziecięcej wyobraźni. I jakie kształty tak naprawdę kryły się w mroku otaczającym jej rodzinny dom…==„Błyski w mroku” to nastrojowy psychologiczny thriller, pełen kłamstw i rodzinnych sekretów. Prawa do jego ekranizacji jeszcze przed premierą kupiła nagrodzona Oscarem aktorka Emma Stone, a prace nad serialem rozpoczęła platforma HBO Max. ",
       okladka: "/images/blyskiwmroku.jpg",
@@ -225,16 +232,17 @@ export const wszystkieKsiazki = [
 
     // 🏰 POWIEŚĆ HISTORYCZNA 🏰
     {
-      id: 11,
+      id: 23,
       tytul: "Imię róży, Il nome della rosa ",
       autor: "Umberto Eco",
       wydawnictwo: "Znak",
+      cykl: null,
       kategorie: ["Powieść historyczna"],
       opis: "Listopad 1327 roku. Do znamienitego opactwa benedyktynów w północnych Włoszech przybywa uczony franciszkanin, Wilhelm z Baskerville, któremu towarzyszy uczeń i sekretarz, nowicjusz Adso z Melku. W klasztorze panuje ponury nastrój. Opat zwraca się do Wilhelma z prośbą o pomoc w rozwikłaniu zagadki tajemniczej śmierci jednego z mnichów. Sprawa jest nagląca, gdyż za kilka dni w opactwie ma się odbyć ważna debata teologiczna, w której wezmą udział dostojnicy kościelni, z wielkim inkwizytorem Bernardem Gui na czele. Tymczasem dochodzi do kolejnych morderstw. Przenikliwy Anglik orientuje się, że wyjaśnienia mrocznego sekretu należy szukać w klasztornej bibliotece. Bogaty księgozbiór, w którym nie brak dzieł uważanych za niebezpieczne, mieści się w salach tworzących labirynt. Intruz może tam łatwo zabłądzić, a nawet - jak krążą słuchy - postradać zmysły.",
       okladka: "/images/imierózy.jpg",
     },
     {
-      id: 12,
+      id: 24,
       tytul: "Dyktator",
       autor: "Robert Harris",
       wydawnictwo: " Albatros",
@@ -244,7 +252,7 @@ export const wszystkieKsiazki = [
       okladka: "/images/dyktator.jpg",
     },
     {
-      id: 13,
+      id: 25,
       tytul: "Śmierć cesarzowi",
       autor: "Simon Scarrow",
       wydawnictwo: "Książnica",
@@ -254,7 +262,7 @@ export const wszystkieKsiazki = [
       okladka: "/images/smierccesarzowi.jpg",
     },
     {
-      id: 14,
+      id: 26,
       tytul: "Czas korony",
       autor: "Ewa Kassala",
       wydawnictwo: "Sonia Draga",
@@ -264,25 +272,27 @@ export const wszystkieKsiazki = [
       okladka: "/images/czaskorony.jpg",
     },
     {
-      id: 15,
+      id: 27,
       tytul: "August",
       autor: "John Williams",
       wydawnictwo: "Wydawnictwo Filtry",
+      cykl: null,
       kategorie: ["Powieść historyczna"],
       opis: "Portretując pierwszego rzymskiego cesarza, Williams unika epickiego rozmachu w hollywoodzkim stylu i oddaje prowadzenie opowieści samym bohaterom. Wśród narratorów są mistrzowie retoryki, tacy jak Cyceron i Horacy, ale również żołnierze, urzędnicy i prości obywatele starożytnego Rzymu, których głosy, poznawane przez nas w pamiętnikach, listach, dokumentach, pisarz stara się odtworzyć w całej różnorodności – tak byśmy mogli odczuć „żywą obecność” istniejących przed wiekami postaci.==W gruncie rzeczy „August” ma wiele wspólnego ze „Stonerem”. Obie powieści opisują biografię pojedynczego człowieka, a ich głównym tematem jest walka o władzę, choć prowadzona na różną skalę. W „Auguście” historię o wielkiej polityce Williams podszywa intymną opowieścią o życiu rodzinnym i miłości ojca do córki, poruszając nie tylko nasz intelekt, lecz również emocje. Żal nam Oktawiusza, który jako niepozorny dziewiętnastolatek musi podjąć wyzwanie losu i przejąć rządy w republice, współodczuwamy z jego córką Julią, gdy ta odkrywa swoją cielesność i podejmuje emancypacyjne wysiłki. Niestety – jak zauważa w posłowiu tłumacz Williamsa, Maciej Stroiński: „Polityka, szczęście rodzinne i święty spokój okazują się w »Auguście« nie do pogodzenia”. orma HBO Max. .",
       okladka: "/images/auust.jpg",
     },
     {
-      id: 34,
+      id: 28,
       tytul: "Sonata z Auschwitz",
       autor: "Luize Valente",
       wydawnictwo: "Bukowy Las",
+      cykl: null,
       kategorie: ["Powieść historyczna"],
       opis: "Październik 1944 roku. W Auschwitz na świat przychodzi Haya. Niedługo potem młody niemiecki oficer komponuje dla niej sonatę.==Kilka dekad później Amália, Portugalka o niemieckich korzeniach, po raz pierwszy w życiu spotyka w Berlinie swoją niemal stuletnią prababkę i odkrywa nazistowską przeszłość rodziny. Dowiedziawszy się, że jej dziadek, dawno uznany za zmarłego, być może żyje na drugim końcu świata, młoda kobieta wyrusza w podróż, by wyjaśnić rodzinne tajemnice.==W Rio de Janeiro poznaje parę ocalałych z Holocaustu Żydów, którzy przybliżają jej dramatyczne wydarzenia z przeszłości. Amália będzie musiała połączyć wszystkie elementy układanki, żeby dojść do prawdy.",
       okladka: "/images/sonatazau.jpg",
     },
     {
-      id: 35,
+      id: 29,
       tytul: "Królowa Margot",
       autor: "Aleksander Dumas",
       wydawnictwo: "Świat Książki",
@@ -292,28 +302,31 @@ export const wszystkieKsiazki = [
       okladka: "/images/krolowamargot.jpg",
     },
     {
-      id: 36,
+      id: 30,
       tytul: "Życie prywatne morderców z Auschwitz. Dwie twarze",
       autor: "Nina Majewska-Brown",
       wydawnictwo: "Bellona",
+      cykl: null,
       kategorie: ["Powieść historyczna"],
       opis: "Ann, żona oficera SS, próbuje odnaleźć się w nowym domu w Auschwitz, ale codzienność coraz bardziej ją przeraża. Nie poznaje swojego męża Hansa – codziennie wraca wyczerpany, zrobił się nerwowy, a jego milczenie na temat pracy budzi w niej niepokój. Nawet nie podejrzewa, czym zajmuje się jej ukochany oraz jak potworna jest prawda skrywana za obozowymi drutami.==Po godzinach morderczej pracy esesmani wracali do wygodnych domów, gdzie czekały na nich rodziny. Tuż za obozowymi drutami hodowali króliki, uprawiali róże, bawili się w kantynach, zakochiwali się i korzystali z uroków życia, podczas gdy zaledwie kilkaset metrów dalej rozgrywał się jeden z największych dramatów w historii ludzkości.==Książka odsłania życie codzienne oprawców i ich rodzin, ukazując przerażającą dwoistość egzystencji w cieniu obozu śmierci oraz skłaniając do refleksji nad naturą człowieczeństwa i granicami moralności.==Nowe wydanie uzupełnione o wyjątkową, nigdy niepublikowaną relację uciekiniera z Auschwitz! ",
       okladka: "/images/zycieprywatnemorder.jpg",
     },
     {
-      id: 37,
+      id: 31,
       tytul: "Tylko Beatrycze",
       autor: "Teodor Parnicki",
       wydawnictwo: "Noir sur Blanc",
+      cykl: null,
       kategorie: ["Powieść historyczna"],
       opis: "Arcydzieło polskiej powieści historycznej, ewenement niemający sobie podobnych w całej literaturze światowej.==Akcja rozgrywa się na początku XIV w. (w czasach Władysława Łokietka, o którym również jest w powieści mowa). Rozpoczyna się dochodzenie w sprawie spalenia wieleńskich mnichów, które powoli przekształca się w subtelną psychoanalizę pełną teologiczno-filozoficznych odniesień. Niemal przy okazji Teodor Parnicki zadaje kłam potocznemu mniemaniu, jakoby średniowiecze było czasem ciemnoty i zabobonu.=Na treść składają się głównie dialogi pomiędzy papieżem Janem XXII a pewnym diakonem Stanisławem. Jeden z wątków dotyczy obsesji Stanisława związanej z czeską księżniczką, którą ten widział w dzieciństwie. Stanisław zakochuje się w niej, koresponduje przez lata i chyba ma nawet romans (jako dojrzały mężczyzna),ale być może jest on tylko ofiarą zabawy dwórek i własnej pomyłki. Historię i literaturę wiąże tytułowa Beatrycze - królowa Ryksa zwana Reiczką, córka zamordowanego w 1296 r. króla Przemysła II. Według świadectw historycznych była to kobieta o nieprzeciętnej urodzie i talentach politycznych, a barwne koleje jej losu aż się proszą o ujęcie jej biografii w ramy pełnego tajemnic historycznego romansu.=Książka wybitna, prawdziwa uczta dla intelektu, z ciekawą fabułą i nietypową formą.",
       okladka: "/images/tylkobeatrice.jpg",
     },
     {
-      id: 38,
+      id: 32,
       tytul: "Lista Schindlera",
       autor: "Thomas Keneally",
       wydawnictwo: " Albatros",
+      cykl: null,
       kategorie: ["Powieść historyczna"],
       opis: "KSIĄŻKA THOMASA KENEALLY’EGO OTRZYMAŁA NAGRODĘ BOOKERA. FILM STEVENA SPIELBERGA, KTÓRY POWSTAŁ NA JEJ PODSTAWIE – AŻ 7 OSCARÓW.=Był kobieciarzem, pijakiem i lekkoduchem, ale kiedy historia postawiła go przed próbą, okazał się także człowiekiem. W cieniu Auschwitz Oskar Schindler, ekstrawagancki niemiecki przemysłowiec, prowadzi fabrykę, która zatrudnia Żydów. W działaniach partii nazistowskiej widzi przede wszystkim świetny interes, dopóki nie styka się z ich realnymi konsekwencjami – okrucieństwem, gwałtem i przemocą. Wówczas, narażając życie i majątek, ratuje Żydów przed trafieniem do obozów koncentracyjnych. Wpisuje ich na „Listę Schindlera” – rejestr pracowników objętych ochroną przed nazistowską władzą. A kiedy transport 1200 ludzi zostaje wbrew jego poleceniom przekierowany do Auschwitz, ryzykuje wszystko, aby uratować im życie.=Ta historia wydarzyła się naprawdę.=Grób Oskara Schindlera do dziś odwiedzają tysiące potomków ocalonych ludzi, których historię przeczytasz w tej książce.",
       okladka: "/images/listaschindlera.jpg",
@@ -324,7 +337,7 @@ export const wszystkieKsiazki = [
 
 
 {
-  id: 23,
+  id: 33,
   tytul: "Harry Potter i Kamień Filozoficzny",
   autor: "J.K. Rowling",
   wydawnictwo: "Media Rodzina",
@@ -338,7 +351,7 @@ export const wszystkieKsiazki = [
 //Literatura młodzieżowa
 
 {
-  id: 20,
+  id: 34,
   tytul: "Złodziej Pioruna",
   autor: "Rick Riordan",
   wydawnictwo: "Galeria Książki",
@@ -348,7 +361,7 @@ export const wszystkieKsiazki = [
   okladka: "/images/richrio.jpg",
 },
 {
-  id: 31,
+  id: 35,
   tytul: "Klątwa Tytana",
   autor: "Rick Riordan",
   wydawnictwo: "Galeria Książki",
@@ -358,7 +371,7 @@ export const wszystkieKsiazki = [
   okladka: "/images/klątwatytana.jpg",
 },
 {
-  id: 55,
+  id: 36,
   tytul: "Bitwa w Labiryncie",
   autor: "Rick Riordan",
   wydawnictwo: "Galeria Książki",
@@ -373,7 +386,7 @@ export const wszystkieKsiazki = [
 //Science Fiction
   
 {
-  id: 28,
+  id: 37,
   tytul: "Krew i popiół  , From Blood and Ash ",
   autor: "Jennifer L. Armentrout",
   wydawnictwo: " You & YA",
@@ -383,7 +396,7 @@ export const wszystkieKsiazki = [
   okladka: "/images/krewipopiól.jpg",
 },
 { //!!!
-  id: 18,
+  id: 38,
   tytul: "The Primal of Blood and Bone",
   autor: "Jennifer L. Armentrout",
   wydawnictwo: "Blue Box Press",
@@ -398,10 +411,11 @@ export const wszystkieKsiazki = [
 //romans
  
   { //!!!
-    id: 19,
+    id: 39,
     tytul: "A imię jej szeptał wiatr",
     autor: "Laura Green",
     wydawnictwo: "Papierowe Serca",
+    cykl: null,
     kategorie: ["Literatura obyczajowa", "Romans"],
     opis: "Ona walczy z przeszłością. On walczy o przyszłość...",
     okladka: "/images/wiatr.jpg",
@@ -416,47 +430,47 @@ export const wszystkieKsiazki = [
 
   // kategorie{lektury/klasayka}
   {
-    id: 48,
+    id: 40,
     tytul: "Syzyfowe prace",
     autor: "Stefan Żeromski",
     wydawnictwo: " Greg",
-    cykl: "",
+    cykl: null,
     kategorie: ["Klasyka"],
     opis: "Powieść Stefana Żeromskiego opowiada o trudnych dla Polski czasach - znajdująca się pod zaborami ojczyzna zniknęła z mapy Europy. Polacy musieli zmagać się z zakusami zaborców, którzy za wszelką cenę chcieli sprawić, by młodzież zapomniała, kim naprawdę jest.=Syzyfowe prace w serii Kolorowa Klasyka to najpiękniejsze kolorowe wydanie tej powieści na rynku! Książka zawiera wspaniałe, barwne ilustracje, jej atutem jest duża, ułatwiająca szybkie czytanie czcionka. Edycja na szlachetnym papierze, bardzo trwała i estetyczna. Wydanie zawiera pełny tekst utworu, bez skrótów i cięć w treści. Wydanie to nie zawiera opracowania.=Państwo Borowiczowie wysyłają swojego jedynaka - Marcinka - do szkoły. Ze szkoły wynosi nie tylko wiedzę, którą starają się przekazać mu nauczyciele, dojrzewa i zyskuje świadomość swojej narodowości. Syzyfowe prace opisują ducha narodu, którego żaden zaborca nie mógł stłamsić.=Wydanie w twardej oprawie jest szczególnie trwałe i wytrzymałe. ",
     okladka: "/images/syzysowepraceze.jpg",
   },
   {
-    id: 49,
+    id: 41,
     tytul: "Wesele",
     autor: "Stanisław Wyspiański",
     wydawnictwo: "Świat Książki",
-    cykl: "",
+    cykl: null,
     kategorie: ["Klasyka"],
     opis: "Dramat o tradycji, patriotyzmie oraz narodowej tożsamości, który nawiązuje do ślubu poety Lucjana Rydla z chłopką Jadwigą Mikołajczykówną. Tytułowa uroczystość jest pretekstem do ukazania rozmaitych postaci i charakterów społeczeństwa polskiego.='Wesele' to przede wszystkim obraz Polski, podzielonej na trzy grupy społeczne: inteligencję, chłopów i szlachtę. Jest także refleksją nad polskim losem i rolą sztuki w życiu narodu. ",
     okladka: "/images/weaselewys.jpg",
   },
   {
-    id: 50,
+    id: 42,
     tytul: "Zbrodnia i kara",
     autor: "Fiodor Dostojewski",
     wydawnictwo: "Wydawnictwo MG",
-    cykl: "",
+    cykl: null,
     kategorie: ["Klasyka"],
     opis: "Słynna powieść Fiodora Dostojewskiego, opowiadająca o losach byłego studenta Rodiona Raskolnikowa, który postanawia zamordować i obrabować bogatą lichwiarkę.=Pomysł na tę powieść narodził się w czasie, kiedy sam autor przebywał na katordze. Zainteresował się wtedy psychologią współwięźniów, wśród których byli i tacy, którzy zostali skazani za morderstwo.=Bohater powieści, 23-letni były student prawa jest półsierotą, ma jednak kochającą rodzinę. Jego matka i siostra darzą go głęboką miłością i wspierają finansowo.=Jednak bohater, zbuntowany przeciw porządkowi świata, decyduje się popełnić morderstwo. Jest przekonany, że jako jednostka wybitna ma prawo zabijać, gdyż geniusz usprawiedliwia wszystkie zbrodnie na „zwykłych” ludziach. Morderstwo ma stać się rodzajem sprawdzianu jego odwagi. Choć jednocześnie bezpośrednią pobudką tego czynu jest zła sytuacja finansowa Raskolnikowa",
     okladka: "/images/zbrodniaikaradost.jpg",
   },
   {
-    id: 51,
+    id: 43,
     tytul: "Idiota",
     autor: "Fiodor Dostojewski",
     wydawnictwo: "Świat Książki",
-    cykl: "",
+    cykl: null,
     kategorie: ["Klasyka"],
     opis: "'Idiota' Fiodora Dostojewskiego to jedna z najważniejszych powieści literatury światowej, wydana w 1869 roku. Autor stawia pytania o moralność, naturę człowieka, granice dobra i zła oraz sens życia. Głównym bohaterem jest książę Lew Myszkin, człowiek o niezwykle czystym sercu, którego naiwność i dobroć wystawione są na próbę w skomplikowanym świecie pełnym intryg, hipokryzji i egoizmu.=Książę Lew Myszkin powraca do Rosji po leczeniu w szwajcarskim sanatorium, gdzie przebywał z powodu epilepsji i załamania psychicznego. Po przyjeździe do Petersburga Myszkin zostaje wciągnięty w życie wyższych sfer społecznych, wypełnione namiętnościami, konfliktami i grami interesów.=Miłość Myszkina do dwóch kobiet, Nastazji Filipownej i Agłai Jepanczyn, jego idealizm oraz konflikt między współczuciem a romantycznym uczuciem prowadzą do tragicznych konsekwencji.",
     okladka: "/images/idiotadost.jpg",
   },
   {
-    id: 52,
+    id: 44,
     tytul: "Martwe dusze",
     autor: "Mikołaj Gogol",
     wydawnictwo: "Wydawnictwo MG",
@@ -466,7 +480,7 @@ export const wszystkieKsiazki = [
     okladka: "/images/martweduszegla.jpg",
   },
   {
-    id: 53,
+    id: 45,
     tytul: "Pan Tadeusz",
     autor: "Adam Mickiewicz",
     wydawnictwo: "Wydawnictwo MG",
@@ -476,7 +490,7 @@ export const wszystkieKsiazki = [
     okladka: "/images/pantadeucz.jpg",
   },
   {
-    id: 54,
+    id: 46,
     tytul: "Nad Niemnem ",
     autor: "Eliza Orzeszkowa",
     wydawnictwo: "Wydawnictwo MG",
@@ -490,21 +504,21 @@ export const wszystkieKsiazki = [
 
   // literatura obyczajowa
   {
-    id: 27,
+    id: 47,
     tytul: "Zimowy ogród",
     autor: "Kristin Hannah",
     wydawnictwo: "Prószyński i S-ka",
-    cykl: "",
+    cykl: null,
     kategorie: ["Literatura obyczajowa", "Romans"],
     opis: "Historia miłości, rodzinnych tajemnic i dramatów...",
     okladka: "/images/ogród.jpg",
   },
   {
-    id: 29,
+    id: 48,
     tytul: "Złodziejka książek",
     autor: "Markus Zusak",
     wydawnictwo: "Nasza Księgarnia",
-    cykl: "",
+    cykl: null,
     kategorie: ["Powieść historyczna", "Literatura obyczajowa"],
     opis: "Kiedy wojna staje się tłem dla najważniejszej książki w życiu...",
     okladka: "/images/złodziejka.jpg",
@@ -514,7 +528,7 @@ export const wszystkieKsiazki = [
   //literatura dzieciąca
 
   {
-    id: 21,
+    id: 49,
     tytul: "Opowieści z Narnii: Lew, Czarownica i Stara Szafa",
     autor: "C.S. Lewis",
     wydawnictwo: "Znak",
@@ -524,28 +538,31 @@ export const wszystkieKsiazki = [
     okladka: "/images/opowieścistaraszafa.jpg",
   },
   {
-    id: 22,
+    id: 50,
     tytul: "Czarnoksiężnik z Krainy Oz",
     autor: "L. Frank Baum",
     wydawnictwo: "Wilga",
+    cykl: null,
     kategorie: ["Fantasy", "Literatura dziecięca"],
     opis: "Dziewczynka imieniem Dorotka trafia do magicznej krainy Oz...",
     okladka: "/images/krainyoz.jpg",
   },
   {
-    id: 24,
+    id: 51,
     tytul: "Tajemniczy ogród",
     autor: "Frances Hodgson Burnett",
     wydawnictwo: "Zielona Sowa",
+    cykl: null,
     kategorie: ["Literatura dziecięca"],
     opis: "Dziewczynka odkrywa tajemniczy ogród...",
     okladka: "/images/tajemniczyogród.jpg",
   },
   {
-    id: 25,
+    id: 52,
     tytul: "Bracia Lwie Serce",
     autor: "Astrid Lindgren",
     wydawnictwo: "Nasza Księgarnia",
+    cykl: null,
     kategorie: ["Fantasy", "Literatura dziecięca"],
     opis: "Dwóch braci trafia do magicznego świata Nangijali...",
     okladka: "/images/bracialwie.jpg",
@@ -555,11 +572,11 @@ export const wszystkieKsiazki = [
 
 
   {
-    id: 30,
+    id: 53,
     tytul: "Koniec i początek świata",
     autor: "Maria Kann",
     wydawnictwo: "ALFA",
-    cykl: "",
+    cykl: null,
     kategorie: ["Literatura dziecięca"],
     opis: "Oto historia córki Niemki i Polaka, urodzonej na Ukrainie. Wspaniałe, szczęśliwe dzieciństwo zostało brutalnie przerwane przez śmierć ojca i rewolucyjną zawieruchę. Wrażliwa i inteligentna dziewczynka rozpaczliwie szuka swojego miejsca na ziemi, swej ojczyzny. Zafascynowana książką o Polsce, poruszona historią dzieci z Wrześni decyduje - jestem Polką! Późniejsze lata - dzieciństwo w domu przybranych rodziców, nauka, pierwsze przyjaźnie i miłości - to ciągłe 'uczenie się Polski'. Jakże często gorzkie, jakże często bolesne! ",
     okladka: "/images/koniecipoczątek.jpg",
