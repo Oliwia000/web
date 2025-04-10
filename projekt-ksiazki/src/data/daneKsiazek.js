@@ -229,6 +229,39 @@ export const wszystkieKsiazki = [
     },
 
 
+    //sensacja  
+    {
+      id: 74,
+      tytul: "Zamek. Skrzydło anioła",
+      autor: "Paweł Brol",
+      wydawnictwo: "Wydawnictwo Vectra",
+      cykl: null,
+      kategorie: ["Sensacja", "Thriller"],
+      opis: "Zabytkowe mury spokojnego miasteczka skrywają tajemnice, które postanawia zgłębić dziennikarz śledczy Hubert Smoczyński, dawny mieszkaniec Krapkowic. Tymczasem licealista Damian Kruk, włączając się w poszukiwania zaginionego kolegi Witalija, trafia na starą książkę z zagadkowym symbolem i pieczęcią.=Mroczne sekrety, które miały zostać pogrzebane na zawsze, wychodzą na światło dzienne i splatają losy bohaterów, zmuszając ich do przedefiniowania wszystkiego, co dotychczas o sobie wiedzieli.=Thriller inspirowany sceneriami prawdziwych posiadłości arystokratycznych i szlacheckich rodów, w tym jednego z najpiękniejszych polskich zamków – w Mosznej. .",
+      okladka: "/images/zamekskrzydloiuapkdlo.jpg",
+    },
+    {
+      id: 75,
+      tytul: "Bezkarny",
+      autor: "Remigiusz Mróz",
+      wydawnictwo: "Filia",
+      cykl: "Mroczna strona",
+      kategorie: ["Kryminał", "Sensacja", "Thriller"],
+      opis: "Czarujący uwodziciel, bezwzględny manipulator i profesjonalny oszust...",
+      okladka: "/images/bezkarny.jpg",
+    },
+
+    {
+      id: 76,
+      tytul: "Bezkarny",
+      autor: "Remigiusz Mróz",
+      wydawnictwo: "Filia",
+      cykl: "Mroczna strona",
+      kategorie: ["Kryminał", "Sensacja", "Thriller"],
+      opis: "Czarujący uwodziciel, bezwzględny manipulator i profesjonalny oszust...",
+      okladka: "/images/bezkarny.jpg",
+    },
+
 
     // 🏰 POWIEŚĆ HISTORYCZNA 🏰
     {
