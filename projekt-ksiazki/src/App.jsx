@@ -6,21 +6,24 @@ import ListaKsiazek from "./components/ListaKsiazek";
 import SzczegolyKsiazki from "./components/SzczegolyKsiazki";
 import ONas from "./components/ONas";
 import { wszystkieKsiazki } from "./data/daneKsiazek";
+import "./styles/style.css";
 
 function App() {
   const [wybranaKategoria, setWybranaKategoria] = useState(null);
   const [query, setQuery] = useState("");
   const [ksiazkiLosowe, setKsiazkiLosowe] = useState([]);
 
+  // Losowy wybór książek (12 sztuk) przy starcie aplikacji
   useEffect(() => {
     const shuffled = [...wszystkieKsiazki].sort(() => 0.5 - Math.random());
-    setKsiazkiLosowe(shuffled.slice(0, 12)); // 12 losowych książek
+    setKsiazkiLosowe(shuffled.slice(0, 12));
   }, []);
 
   const handleWyszukaj = (searchQuery) => {
     setQuery(searchQuery);
   };
 
+  // Filtrowanie książek wg wyszukiwania i wybranej kategorii
   const ksiazkiDoWyswietlenia = wszystkieKsiazki.filter((ksiazka) => {
     return (
       (ksiazka.tytul.toLowerCase().includes(query.toLowerCase()) ||
@@ -40,7 +43,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ListaKsiazek ksiazki={ksiazkiDoWyswietlenia} />} />
             <Route path="/ksiazka/:id" element={<SzczegolyKsiazki />} />
-            <Route path="/o-nas" element={<ONas />} /> {/* Ścieżka dla "O Nas" */}
+            <Route path="/o-nas" element={<ONas />} />
           </Routes>
         </div>
       </div>

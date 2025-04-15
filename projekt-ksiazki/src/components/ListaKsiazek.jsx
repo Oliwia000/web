@@ -10,7 +10,10 @@ const ListaKsiazek = ({ ksiazki }) => {
           <img src={ksiazka.okladka} alt={ksiazka.tytul} />
           <h4>{ksiazka.tytul}</h4>
           <p>{ksiazka.autor}</p>
-          <Link to={`/ksiazka/${ksiazka.id}`} state={{ kategoria: ksiazka.kategorie }}>
+          <Link 
+            to={`/ksiazka/${ksiazka.id}`} 
+            state={{ kategoria: ksiazka.kategorie }}
+          >
             Zobacz więcej
           </Link>
         </div>

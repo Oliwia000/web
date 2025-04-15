@@ -15,7 +15,10 @@ const AplikacjaKsiazki = () => {
     <div className="aplikacja-ksiazki">
       <Wyszukiwarka onWyszukaj={handleWyszukaj} />
       <KategoriaBoczna wybierzKategorie={setWybranaKategoria} />
-      <ListaKsiazek wybranaKategoria={wybranaKategoria} searchQuery={searchQuery} />
+      <ListaKsiazek 
+        wybranaKategoria={wybranaKategoria} 
+        searchQuery={searchQuery} 
+      />
     </div>
   );
 };
