@@ -10,7 +10,7 @@ function ONas() {
         Na stronie znajdziesz wyszukiwarkę, która wyszukuje po autorze, tytule i wydawnictwie. 
         Owocnych poszukiwań książek dla siebie!
       </p>
-      <Wyszukiwarka /> {/* Komponent wyszukiwania, jeżeli już go masz */}
+      
     </div>
   );
 }
