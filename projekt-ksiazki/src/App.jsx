@@ -5,7 +5,6 @@ import KategoriaBoczna from "./components/KategoriaBoczna";
 import ListaKsiazek from "./components/ListaKsiazek";
 import SzczegolyKsiazki from "./components/SzczegolyKsiazki";
 import ONas from "./components/ONas";
-import Wydarzenia from "./components/Wydarzenia";
 import { wszystkieKsiazki } from "./data/daneKsiazek";
 
 function App() {
@@ -42,7 +41,6 @@ function App() {
             <Route path="/" element={<ListaKsiazek ksiazki={ksiazkiDoWyswietlenia} />} />
             <Route path="/ksiazka/:id" element={<SzczegolyKsiazki />} />
             <Route path="/o-nas" element={<ONas />} /> {/* Ścieżka dla "O Nas" */}
-            <Route path="/wydarzenia" element={<Wydarzenia />} /> {/* Ścieżka dla "Wydarzenia" */}
           </Routes>
         </div>
       </div>
