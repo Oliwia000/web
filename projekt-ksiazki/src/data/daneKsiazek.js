@@ -48,8 +48,12 @@ export const wszystkieKsiazki = [
       wydawnictwo: "Albatros",
       cykl: null,
       kategorie: ["Horror","Sensacja", "Thriller"],
-      opis: " Dean Koontz odsłania blaski i cienie wielkiego miasta .Jonah Kirk dorastał w niezwykłej rodzinie – jego matka jest wybitną śpiewaczką, dziadek – światowej sławy pianistą. On sam jest muzycznym geniuszem, który właśnie zaczął odkrywać swoje umiejętności i przy okazji wpadł w niebezpieczne towarzystwo. Przysparzając sobie wrogów i, niespodziewanie, nowych przyjaciół.",
-      okladka: "/images/miasto.jpg",
+      opis:  [
+        "Dean Koontz odsłania blaski i cienie wielkiego miasta.",
+        "Jonah Kirk dorastał w niezwykłej rodzinie - jego matka jest wybitną śpiewaczką, dziadek  światowej sławy pianistą.",
+        "On sam jest muzycznym geniuszem, który właśnie zaczął odkrywać swoje umiejętności i przy okazji wpadł w niebezpieczne towarzystwo.",
+        "Przysparzając sobie wrogów i, niespodziewanie, nowych przyjaciół."
+      ], okladka: "/images/miasto.jpg",
     },
     {
       id: 6,

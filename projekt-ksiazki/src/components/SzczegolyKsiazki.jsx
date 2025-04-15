@@ -21,8 +21,12 @@ const SzczegolyKsiazki = () => {
         <p><strong>Autor:</strong> {ksiazka.autor}</p>
         <p><strong>Wydawnictwo:</strong> {ksiazka.wydawnictwo}</p>
         <p><strong>Cykle:</strong> {ksiazka.cykl ? ksiazka.cykl : "Jednotomówka"}</p>
-        <p>{ksiazka.opis}</p>
+        {ksiazka.opis.split("=") // Dzielimy tekst po symbolu "=" i renderujemy osobne akapity
+          .map((fragment, index) => (
+            <p key={index}>{fragment.trim()}</p> // Usuwamy nadmiarowe spacje
+        ))}
       </div>
+
       <img src={ksiazka.okladka} alt={ksiazka.tytul} />
     </div>
   );

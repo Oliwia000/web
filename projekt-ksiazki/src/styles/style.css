@@ -318,5 +318,12 @@ body {
     width: 90%;
     font-size: 1.1rem;
   }
+
+
+  
+  .szczegoly-ksiazki .info p {
+    margin-bottom: 10px;  /* Przestrzeń między akapitami */
+    line-height: 1.6;     /* Ustawienie większej przestrzeni w linii */
+  }
   
 }
