@@ -1,6 +1,5 @@
-/* ========================= */
 /* Resetowanie stylów        */
-/* ========================= */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,9 +7,8 @@ body {
   background-color: #f4f4f4;
 }
 
-/* ========================= */
 /* Pasek z nagłówkiem        */
-/* ========================= */
+
 .header-banner {
   width: 100%;
   background-color: #8B4513; /* Brązowy nagłówek */
@@ -21,9 +19,9 @@ body {
   font-weight: bold;
 }
 
-/* ========================= */
+
 /* Górne menu nawigacji      */
-/* ========================= */
+
 .nawigacja {
   background-color: #A0522D; /* Ciemny brąz w menu */
   padding: 10px;
@@ -56,9 +54,9 @@ body {
   transform: scale(1.05);
 }
 
-/* ========================= */
+
 /* Pasek boczny – kategorie   */
-/* ========================= */
+
 .menu-boczne {
   width: 250px;
   background: #f8f8f8;
@@ -81,9 +79,9 @@ body {
   color: white;
 }
 
-/* ========================= */
+
 /* Lista książek - grid       */
-/* ========================= */
+
 .lista-ksiazek {
   display: grid;
   /* Na dużych ekranach 6 kolumn (rzędu) */
@@ -92,9 +90,8 @@ body {
   padding: 20px;
 }
 
-/* ========================= */
 /* Pojedyncza książka         */
-/* ========================= */
+
 .ksiazka {
   background: white;
   padding: 15px;
@@ -109,9 +106,8 @@ body {
   border-radius: 10px;
 }
 
-/* ========================= */
 /* Strona szczegółów książki  */
-/* ========================= */
+
 .szczegoly-ksiazki {
   display: flex;
   gap: 35px;
@@ -133,9 +129,9 @@ body {
   border-radius: 10px;
 }
 
-/* ========================= */
+
 /* Przyciski                */
-/* ========================= */
+
 .szczegoly-ksiazki button,
 .wroc-do-kategorii {
   padding: 10px 20px;
@@ -152,9 +148,9 @@ body {
   background-color: #D2691E;
 }
 
-/* ========================= */
+
 /* Efekt neonowy dla tekstu   */
-/* ========================= */
+
 .neon-text {
   color: #fff;
   text-shadow:
@@ -167,9 +163,9 @@ body {
     0 0 75px #ff00de;
 }
 
-/* ========================= */
+
 /* Wyszukiwarka             */
-/* ========================= */
+
 .wyszukiwarka input {
   width: 70%;
   margin: 10px;
@@ -279,9 +275,8 @@ body {
 }
 
 
-/* ========================= */
 /* Układ główny aplikacji   */
-/* ========================= */
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -295,9 +290,9 @@ body {
   flex: 1;
 }
 
-/* ========================= */
+
 /* Responsywność            */
-/* ========================= */
+
 /* Dla ekranów poniżej 1200px */
 @media screen and (max-width: 1200px) {
   .lista-ksiazek {
