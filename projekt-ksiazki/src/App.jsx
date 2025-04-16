@@ -20,11 +20,11 @@ function AppContent() {
 
   const location = useLocation();
 
-  // Losujemy książki przy wejściu na stronę główną
+  
   useEffect(() => {
     if (location.pathname === "/") {
       const shuffled = [...wszystkieKsiazki].sort(() => 0.5 - Math.random());
-      setKsiazkiLosowe(shuffled.slice(0, 12)); // wybieramy 12 losowych książek
+      setKsiazkiLosowe(shuffled.slice(0, 12)); 
     }
   }, [location.pathname]);
 
@@ -32,8 +32,8 @@ function AppContent() {
     setQuery(searchQuery);
   };
 
-  // Jeśli nie ma wyszukiwania ani kategorii – wyświetlamy losowe książki,
-  // w przeciwnym razie filtrujemy
+  // Jeśli nie ma wyszukiwania ani kategorii – wyświetlamy losowe książki, w przeciwnym razie filtrujemy
+ 
   const ksiazkiDoWyswietlenia =
     query === "" && !wybranaKategoria
       ? ksiazkiLosowe
