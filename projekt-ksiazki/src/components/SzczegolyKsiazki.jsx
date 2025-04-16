@@ -21,7 +21,7 @@ const SzczegolyKsiazki = () => {
         <p><strong>Autor:</strong> {ksiazka.autor}</p>
         <p><strong>Wydawnictwo:</strong> {ksiazka.wydawnictwo}</p>
         <p><strong>Cykle:</strong> {ksiazka.cykl ? ksiazka.cykl : "Jednotomówka"}</p>
-        {ksiazka.opis.split("=") // Dzielimy tekst po symbolu "=" i renderujemy osobne akapity
+        {ksiazka.opis.split("=") // Dzielimy tekst po symbolu "=" na osobne akapity
           .map((fragment, index) => (
             <p key={index}>{fragment.trim()}</p> // Usuwamy nadmiarowe spacje
         ))}
