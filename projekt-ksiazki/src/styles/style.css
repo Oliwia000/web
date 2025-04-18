@@ -1,4 +1,4 @@
-/* Resetowanie stylów        */
+/* Resetowanie stylów */
 
 body {
   font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Pasek z nagłówkiem        */
+/* Pasek z nagłówkiem */
 
 .header-banner {
   width: 100%;
@@ -19,8 +19,7 @@ body {
   font-weight: bold;
 }
 
-
-/* Górne menu nawigacji      */
+/* Górne menu nawigacji */
 
 .nawigacja {
   background-color: #A0522D; /* Ciemny brąz w menu */
@@ -54,8 +53,7 @@ body {
   transform: scale(1.05);
 }
 
-
-/* Pasek boczny – kategorie   */
+/* Pasek boczny – kategorie */
 
 .menu-boczne {
   width: 250px;
@@ -79,8 +77,7 @@ body {
   color: white;
 }
 
-
-/* Lista książek - grid       */
+/* Lista książek - grid */
 
 .lista-ksiazek {
   display: grid;
@@ -90,7 +87,7 @@ body {
   padding: 20px;
 }
 
-/* Pojedyncza książka         */
+/* Pojedyncza książka */
 
 .ksiazka {
   background: white;
@@ -100,13 +97,23 @@ body {
 }
 
 .ksiazka img {
-  width: 200px;      
-  height: 300px;     
+  width: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-/* Strona szczegółów książki  */
+/* Opis pod miniaturą książki (max ~3 linijki) */
+.ksiazka .opis {
+  margin: 10px 0;
+  max-height: 4.5em;       /* ~3 linijki tekstu */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+/* Strona szczegółów książki */
 
 .szczegoly-ksiazki {
   display: flex;
@@ -129,8 +136,7 @@ body {
   border-radius: 10px;
 }
 
-
-/* Przyciski                */
+/* Przyciski */
 
 .szczegoly-ksiazki button,
 .wroc-do-kategorii {
@@ -148,8 +154,7 @@ body {
   background-color: #D2691E;
 }
 
-
-/* Efekt neonowy dla tekstu   */
+/* Efekt neonowy dla tekstu */
 
 .neon-text {
   color: #fff;
@@ -163,58 +168,8 @@ body {
     0 0 75px #ff00de;
 }
 
+/* Animacja neonowego efektu */
 
-/* Wyszukiwarka             */
-
-.wyszukiwarka input {
-  width: 75%;
-  margin: 10px;
-  padding: 12px 15px;
-  font-size: 1.2rem;
-  border: 2px solid #8B4513;
-  border-radius: 5px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-
-.wyszukiwarka input:focus {
-  border-color: #D2691E;
-}
-
-/* Cała sekcja O nas z tłem */
-.o-nas-full {
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Kontener z treścią na środku */
-.o-nas-container {
-  background: rgba(255, 255, 255, 0.85);
-  padding: 40px;
-  border-radius: 15px;
-  text-align: center;
-  max-width: 700px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-}
-
-/* Styl neonowy nagłówka */
-.neon-text {
-  font-size: 3rem;
-  color: #fff;
-  text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #ff00de,
-    0 0 30px #ff00de,
-    0 0 40px #ff00de,
-    0 0 55px #ff00de,
-    0 0 75px #ff00de;
-}
-
-/* Animacja nagłówka */
 @keyframes neonPulse {
   0%, 100% {
     text-shadow:
@@ -238,7 +193,61 @@ body {
   animation: neonPulse 2s infinite;
 }
 
+/* Wyszukiwarka */
+
+.wyszukiwarka input {
+  width: 75%;
+  margin: 10px;
+  padding: 12px 15px;
+  font-size: 1.2rem;
+  border: 2px solid #8B4513;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.wyszukiwarka input:focus {
+  border-color: #D2691E;
+}
+
+/* Cała sekcja O nas z tłem */
+
+.o-nas-full {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Kontener z treścią na środku */
+
+.o-nas-container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 700px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Styl neonowy nagłówka */
+
+.neon-text {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff00de,
+    0 0 30px #ff00de,
+    0 0 40px #ff00de,
+    0 0 55px #ff00de,
+    0 0 75px #ff00de;
+}
+
 /* Tekst w sekcji O nas */
+
 .o-nas-text {
   color: #333;
   font-size: 1.3rem;
@@ -247,9 +256,10 @@ body {
 }
 
 /* Lekkie pojawianie się tekstu */
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .animacja-tekst {
@@ -257,6 +267,7 @@ body {
 }
 
 /* Styl przycisku */
+
 .home-link {
   display: inline-block;
   margin-top: 25px;
@@ -274,8 +285,7 @@ body {
   transform: scale(1.05);
 }
 
-
-/* Układ główny aplikacji   */
+/* Układ główny aplikacji */
 
 .app-container {
   display: flex;
@@ -290,8 +300,7 @@ body {
   flex: 1;
 }
 
-
-/* Responsywność            */
+/* Responsywność */
 
 /* Dla ekranów poniżej 1200px */
 @media screen and (max-width: 1200px) {
@@ -313,12 +322,24 @@ body {
     width: 90%;
     font-size: 1.1rem;
   }
-
-
-
   .szczegoly-ksiazki .info p {
-    margin-bottom: 5px;  
-    line-height: 1.2;     
+    margin-bottom: 5px;
+    line-height: 1.2;
   }
-  
+}
+
+/* Wyśrodkowany napis i animacja dla StronaGlowna */
+.polecamy-neon {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 3rem;
+  animation:
+    neonPulse 2.5s ease-in-out infinite,
+    pulseScale 3s ease-in-out infinite;
+}
+
+/* Animacja dodatkowego pulsowania nagłówka */
+@keyframes pulseScale {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.1); }
 }

@@ -8,7 +8,9 @@ const SzczegolyKsiazki = () => {
   const [ksiazka, setKsiazka] = useState(null);
 
   useEffect(() => {
-    const ksiazkaData = wszystkieKsiazki.find((ks) => ks.id === parseInt(id));
+    const ksiazkaData = wszystkieKsiazki.find(
+      (ks) => ks.id === parseInt(id, 10)
+    );
     setKsiazka(ksiazkaData);
   }, [id]);
 
@@ -20,13 +22,11 @@ const SzczegolyKsiazki = () => {
         <h2>{ksiazka.tytul}</h2>
         <p><strong>Autor:</strong> {ksiazka.autor}</p>
         <p><strong>Wydawnictwo:</strong> {ksiazka.wydawnictwo}</p>
-        <p><strong>Cykle:</strong> {ksiazka.cykl ? ksiazka.cykl : "Jednotomówka"}</p>
-        {ksiazka.opis.split("=") // Dzielimy tekst po symbolu "=" na osobne akapity
-          .map((fragment, index) => (
-            <p key={index}>{fragment.trim()}</p> // Usuwamy nadmiarowe spacje
+        <p><strong>Cykl:</strong> {ksiazka.cykl || "Jednotomówka"}</p>
+        {ksiazka.opis.split("=").map((fragment, idx) => (
+          <p key={idx}>{fragment.trim()}</p>
         ))}
       </div>
-
       <img src={ksiazka.okladka} alt={ksiazka.tytul} />
     </div>
   );

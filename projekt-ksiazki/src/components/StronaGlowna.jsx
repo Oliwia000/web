@@ -1,22 +1,24 @@
 import React, { useEffect, useState } from "react";
+import "../styles/style.css";
 
 const StronaGlowna = ({ ksiazki }) => {
-  const [losoweKsiazki, setLosoweKsiazki] = useState([]);
+  const [losowe, setLosowe] = useState([]);
 
   useEffect(() => {
     const shuffled = [...ksiazki].sort(() => 0.5 - Math.random());
-    const wybrane = shuffled.slice(0, 12); // np. 12 losowych książek
-    setLosoweKsiazki(wybrane);
+    setLosowe(shuffled.slice(0, 12));
   }, [ksiazki]);
 
   return (
     <div>
-      <h1 className="polecamy-neon">📚 POLECAMY 📚</h1>
+      <h1 className="neon-text animacja-naglowka polecamy-neon">
+        📚 POLECAMY 📚
+      </h1>
       <div className="lista-ksiazek">
-        {losoweKsiazki.map((ksiazka) => (
-          <div key={ksiazka.id} className="ksiazka">
-            <img src={ksiazka.okladka} alt={ksiazka.tytul} />
-            <h4>{ksiazka.tytul}</h4>
+        {losowe.map((k) => (
+          <div key={k.id} className="ksiazka">
+            <img src={k.okladka} alt={k.tytul} />
+            <h4>{k.tytul}</h4>
           </div>
         ))}
       </div>

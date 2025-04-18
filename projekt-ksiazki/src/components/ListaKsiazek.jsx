@@ -5,12 +5,12 @@ import "../styles/style.css";
 const ListaKsiazek = ({ ksiazki }) => {
   return (
     <div className="lista-ksiazek">
-      {ksiazki.map((ksiazka) => (
-        <div key={ksiazka.id} className="ksiazka">
-          <img src={ksiazka.okladka} alt={ksiazka.tytul} />
-          <h4>{ksiazka.tytul}</h4>
-          <p>{ksiazka.autor}</p>
-          <Link to={`/ksiazka/${ksiazka.id}`} state={{ kategoria: ksiazka.kategorie }}>
+      {ksiazki.map((k) => (
+        <div key={k.id} className="ksiazka">
+          <img src={k.okladka} alt={k.tytul} />
+          <h4>{k.tytul}</h4>
+          <p className="opis">{k.opis}</p>
+          <Link to={`/ksiazka/${k.id}`}>
             Zobacz więcej
           </Link>
         </div>

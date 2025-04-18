@@ -4,36 +4,46 @@ import {
   Routes,
   Route,
   useLocation,
+  useSearchParams,
 } from "react-router-dom";
+
 import Nawigacja from "./components/Nawigacja";
 import KategoriaBoczna from "./components/KategoriaBoczna";
 import ListaKsiazek from "./components/ListaKsiazek";
+import StronaGlowna from "./components/StronaGlowna";
 import SzczegolyKsiazki from "./components/SzczegolyKsiazki";
 import ONas from "./components/ONas";
 import { wszystkieKsiazki } from "./data/daneKsiazek";
 import "./styles/style.css";
 
 function AppContent() {
-  const [wybranaKategoria, setWybranaKategoria] = useState(null);
-  const [query, setQuery] = useState("");
+  const [searchParams] = useSearchParams();
+  const [wybranaKategoria, setWybranaKategoria] = useState(
+    searchParams.get("kategoria") || null
+  );
+  const [query, setQuery] = useState(searchParams.get("search") || "");
   const [ksiazkiLosowe, setKsiazkiLosowe] = useState([]);
-
   const location = useLocation();
 
-  
   useEffect(() => {
     if (location.pathname === "/") {
       const shuffled = [...wszystkieKsiazki].sort(() => 0.5 - Math.random());
-      setKsiazkiLosowe(shuffled.slice(0, 12)); 
+      setKsiazkiLosowe(shuffled.slice(0, 12));
     }
   }, [location.pathname]);
+
+  useEffect(() => {
+    const params = {};
+    if (wybranaKategoria) params.kategoria = wybranaKategoria;
+    if (query) params.search = query;
+    const sp = new URLSearchParams(params);
+    window.history.replaceState({}, "", `?${sp.toString()}`);
+  }, [wybranaKategoria, query]);
 
   const handleWyszukaj = (searchQuery) => {
     setQuery(searchQuery);
   };
 
-  // Jeśli nie ma wyszukiwania ani kategorii – wyświetlamy losowe książki, w przeciwnym razie filtrujemy
- 
   const ksiazkiDoWyswietlenia =
     query === "" && !wybranaKategoria
       ? ksiazkiLosowe
@@ -53,30 +63,29 @@ function AppContent() {
       <div className="header-banner">Znajdź coś dla siebie</div>
       <Nawigacja onWyszukaj={handleWyszukaj} />
       <div className="main-content">
-        {}
         <KategoriaBoczna wybierzKategorie={setWybranaKategoria} />
+
         <Routes>
           <Route
             path="/"
+            element={<StronaGlowna ksiazki={wszystkieKsiazki} />}
+          />
+          <Route
+            path="/lista"
             element={<ListaKsiazek ksiazki={ksiazkiDoWyswietlenia} />}
           />
           <Route path="/ksiazka/:id" element={<SzczegolyKsiazki />} />
-          <Route
-            path="/o-nas"
-            element={<ONas ksiazki={ksiazkiDoWyswietlenia} />}
-          />
+          <Route path="/o-nas" element={<ONas />} />
         </Routes>
       </div>
     </div>
   );
 }
 
-function App() {
+export default function App() {
   return (
     <Router>
       <AppContent />
     </Router>
   );
 }
-
-export default App;
