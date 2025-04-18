@@ -972,4 +972,94 @@ export const wszystkieKsiazki = [
     opis: "Lektura z opracowaniem to znakomita pomoc i inspiracja dla uczniów oraz nauczycieli. Tekst opatrzono wskazówkami interpretacyjnymi i hasłami ułatwiającymi nawigację po książce – dzięki nim łatwo znaleźć potrzebny w trakcie omawiania lektury fragment, zgromadzić materiały do wypracowań i ustnych wypowiedzi, zapamiętać najważniejsze informacje i utrwalić znajomość lektury. Zamieszczone na końcu książki opracowanie podporządkowano podstawie programowej. Zawiera ono ciekawy biogram autora, streszczenie, mapę mentalną, najważniejsze zagadnienia omawiane na lekcjach, a także wiele inspirujących informacji, podpowiedzi i zadań, dzięki którym czytanie lektury staje się twórczą przygodą. ",
     okladka: "/images/pracpracnichdsos.jpg",
   },
+
+//18+
+
+
+{
+  id: 91,
+  tytul: "The Ritual",
+  autor: "Shantel Tessier",
+  wydawnictwo: "Self Publishing ",
+  cykl: "The L.O.R.D.S (tom 1) ",
+  kategorie: ["18+", "Romans"],
+  opis: "THE CHOSEN ONE I vow. You vow. We vow.=Barrington University is home of the Lords, a secret society that requires their blood in payment. They are above all—the most powerful men in the world. They devote their lives to violence in exchange for power. And during their senior year, they are offered a chosen one.=People think growing up with money is freeing, but I promise you, it’s not. My entire life has been planned out for me. I never got the chance to do what I wanted until Ryat Alexander Archer came along and gave me an option for a better life. He offered me what no one else ever had—freedom.=I chose to be his. He made me believe that anyway, but it was just another lie. A way that the Lords manipulate you into doing what they want.=After being sucked into the dark, twisted world of the Lords, I embraced my new role and allowed Ryat to parade me around like the trophy I was to him. But like all things, what started out as a game soon became a fight for survival. And the only way out was death.=Things to know about The Ritual",
+  okladka: "/images/thrchosenone.jpg",
+},
+{
+  id: 92,
+  tytul: "Uciekając przed jutrem",
+  autor: "Sylvia Wyka",
+  wydawnictwo: "WONDER",
+  cykl: " Bracia Roszczenko (tom 2) ",
+  kategorie: ["18+", "Romans"],
+  opis: "Z jakimi demonami przeszłości walczy  i przed czym ucieka? Dlaczego uparcie twierdzi, że ma krew na rękach. Kiedy podejmuje pracę w hotelu, u rodziny Roszczenko, jeszcze nie wie, jaki mrok pochłania braci.=Olivia spróbuje odkryć, które rany są gorsze. Fizyczne czy te pozostawione głęboko w duszy? Będzie musiała podjąć trudną decyzję. Dwaj bracia - jeden wybór.=Aleksander po traumie z dzieciństwa, nie dopuszcza do głębszych relacji z kobietami. Do tej pory wypadek i jego konsekwencje były tajemnicą. A co, gdy na drodze Aleksa stanie dziewczyna z równie dramatyczną przeszłością? Czy Aleks da radę walczyć z pożądaniem i z rodzonym… bratem? ",
+  okladka: "/images/uziecacprzedjueter.jpg",
+},
+{
+  id: 93,
+  tytul: "Haunting Adeline",
+  autor: "H.D. Carlton",
+  wydawnictwo: "NieZwykłe",
+  cykl: " Cat and Mouse Duet (tom 1) ",
+  kategorie: ["18+", "Romans"],
+  opis: "Książka zawiera opisy przemoc oraz drastyczne sceny.=Manipulatorka=Potrafię manipulować emocjami każdego, kto mi na to pozwoli. Potrafię sprawić, żeby cierpiał, płakał lub się śmiał. Ale moje słowa nie wpływają na NIEGO…=Szczególnie kiedy błagam go, żeby odszedł.=Jednak on zawsze tam jest. Czeka, patrzy, obserwuje.=A ja nie mogę odwrócić wzroku, nie potrafię. Zwłaszcza gdy chcę, żeby podszedł bliżej.=Cień=Nie miałem zamiaru się zakochać. Jednak teraz, kiedy to się stało, nie potrafię trzymać się od niej z daleka. Uwielbiam jej uśmiech, jej oczy, sposób, w jaki się porusza. Sposób, w jaki się rozbiera. Będę ją obserwował i czekał, aż w końcu będzie należała tylko do mnie.=A wtedy już nigdy nie pozwolę jej odejść.=Nawet kiedy zacznie mnie o to błagać. ",
+  okladka: "/images/hutingadelie.jpg",
+},
+{
+  id: 94,
+  tytul: "Satan's Affair",
+  autor: "H.D. Carlton",
+  wydawnictwo: "NieZwykłe",
+  cykl: "Cat and Mouse Duet (tom 0.5) ",
+  kategorie: ["18+", "Romans","Horror"],
+  opis: "Książka zawiera opisy przemocy, w tym seksualnej, oraz drastyczne sceny.=Co roku w Halloween możemy pojawić się w twoim mieście. Przemierzamy cały kraj, oferując przerażającą rozrywkę, idealną na tę porę roku. Nawiedzone domy, ukryte w nich potwory i… najlepsze jedzenie.=Jednak nie wszyscy, którzy do nas przychodzą, mogą opuścić nasze królestwo. W każdym mieście znajdzie się ktoś, w kogo duszy czai się zło. Moim zadaniem jest znaleźć taką osobę. Kieruję się zasadą: jedno miasto, jedna egzekucja.=Czaję się w ukryciu, obserwuję i wydaję wyrok, śpiewając kołysankę dla złych, gnijących dusz.=Jeżeli wybiorę ciebie, już nie uciekniesz. Mam swoich pomocników będących na każde moje skinienie. Możesz uciekać, chować się, a to jeszcze bardziej mnie podnieci.=Chodź.=Przespacerujmy się przez mój domek dla lalek, gdzie nikt nie usłyszy twoich krzyków i słodkich błagań o litość.=Jedyne, co mogę ci obiecać - koniec nie nadejdzie szybko.=Książka zawiera treści nieodpowiednie dla osób poniżej osiemnastego roku życia. ",
+  okladka: "/images/horiosadelnie.jpg",
+},
+{
+  id: 95,
+  tytul: "Phantom ",
+  autor: "H.D. Carlton",
+  wydawnictwo: "Montlake Romance",
+  cykl: "Cat and Mouse Duet (tom 3) ",
+  kategorie: ["18+", "Romans"],
+  opis: "The prequel to the NYT Bestselling Cat & Mouse Duet is here...=This house holds on to souls for a lifetime. I thought I had given it to my husband when I vowed to love him until the end of time.=I lied.=Nothing could have prepared me for the day my phantom appeared outside my window. He was terrifying, yet hypnotizing, and I couldn’t deny my intrigue.=I never intended to fall into a whirlwind romance with my stalker. Especially because he’s so much more than that.=A criminal.=A mobster.=The man who offers me solace from the monster in Parsons Manor.=There are many that haunt these halls, yet it’s only my husband I fear. ",
+  okladka: "/images/3ponsthon.jpg",
+},
+{
+  id: 96,
+  tytul: "The Science of Temptation",
+  autor: "Julia Popiel",
+  wydawnictwo: "NieZwykłe",
+  cykl: "Dylogia Science (tom 1) ",
+  kategorie: ["18+", "Romans"],
+  opis: "Tom pierwszy serii 'Dylogia Science'.=Briana Larsen właśnie rozpoczęła kolejny rok nauki na Uniwersytecie Indiana. Kiedy pojawia się na wykładzie z psychopatologii – przedmiotu, który uchodzi za najtrudniejszy na całym kierunku – okazuje się, że za sprawą nowego profesora pierwszy semestr studiów magisterskich będzie dla niej trudniejszy, niż się spodziewała.=Reed Easton wygląda tak, jakby przysłał go z piekła sam diabeł. Już na samym początku daje studentom do zrozumienia, że jeżeli nie będą postępować zgodnie z jego zasadami, na sali wykładowej pozostaną po nich jedynie puste miejsca.=Z każdym wykładem niechęć Briany do bezwzględnego profesora przybiera na sile. Jednak wszystko zmienia się pewnej nocy, gdy mężczyzna niespodziewanie pojawia się w klubie, w którym dziewczyna pracuje jako barmanka.=Reed nie rozpoznaje swojej studentki i staje w jej obronie przed natarczywym klientem. A później, za sprawą podjętej pod wpływem chwili decyzji, wszystko komplikuje się jeszcze bardziej. ",
+  okladka: "/images/popielred.jpg",
+},
+/*{
+  id: 97,
+  tytul: "i wanna fall",
+  autor: "L. Frank Baum",
+  wydawnictwo: "Wilga",
+  cykl: null,
+  kategorie: ["18+", "Romans"],
+  opis: "Dziewczynka imieniem Dorotka trafia do magicznej krainy Oz...",
+  okladka: "/images/krainyoz.jpg",
+},
+*/
+
+
+
+//biografia
+{
+  id: 98,
+  tytul: "Carmelo Anthony. Bez obietnic. Autobiografia ",
+  autor: "Carmelo Anthony, D. Watkins",
+  wydawnictwo: "Sine Qua Non",
+  cykl: null,
+  kategorie: ["Biografia"],
+  opis: "Z nizin społecznych do koszykarskiego raju. Inspirująca droga Carmelo Anthony’ego do NBA.=Dorastał na Brooklynie, w dzielnicy nazywanej w latach 80. „amerykańską stolicą cracku”. Jako dziecko codziennie z okna mieszkania obserwował, jak jego bracia i kuzyn Luck toczą boje na boisku. Ale ze względu na środowisko, w którym się wychowywał, zawodowa gra w koszykówkę wydawała mu się niedosięgłym marzeniem. Nie lepiej było po przeprowadzce do Baltimore, gdzie królowały przemoc, narkotyki i bezprawie. Wyrwanie się z takiego miejsca graniczyło z cudem. Jemu się udało.=Mimo przedwczesnej śmierci ukochanych osób, problemów w liceum, w którym miał przeciwko sobie dyrektora, przetrwał i dołączył do koszykarskiej elity. Swoje wysiłki spuentował mocnymi słowami: „Wielki sukces trzeba osiągnąć wbrew statystyce i jednocześnie nie dać się zabić”.=Wielokrotnie odarty z godności i pozbawiony nadziei na lepsze jutro, Carmelo Anthony dostał się do NBA w tym samym czasie, co m.in. LeBron James, Dwyane Wade i Chris Bosh. Dokonał tego na własnych warunkach. W Bez obietnic opowiada o pokonywaniu przeciwności losu, o kozłowaniu między większymi i silniejszymi rywalami oraz unikaniu błędów ojczyma, kuzyna i rówieśników, uzależnionych od heroiny i alkoholu.=Koszykówka okazała się dla „Melo” azylem i trampoliną do lepszego świata. A on sam stał się inspiracją dla milionów dzieciaków. ",
+  okladka: "/images/bezobietnic.jpg",
+},
+
 ];
