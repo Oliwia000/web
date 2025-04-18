@@ -53,7 +53,7 @@ function AppContent() {
       <div className="header-banner">Znajdź coś dla siebie</div>
       <Nawigacja onWyszukaj={handleWyszukaj} />
       <div className="main-content">
-        {/* Sidebar z kategoriami – zawsze widoczny */}
+        {}
         <KategoriaBoczna wybierzKategorie={setWybranaKategoria} />
         <Routes>
           <Route
