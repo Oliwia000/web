@@ -100,9 +100,9 @@ body {
 }
 
 .ksiazka img {
-  width: 200px;      /* Stała szerokość obrazka */
-  height: 300px;     /* Stała wysokość obrazka */
-  object-fit: cover; /* Obraz wypełnia kontener, przycinany jeśli potrzeba */
+  width: 200px;      
+  height: 300px;     
+  object-fit: cover;
   border-radius: 10px;
 }
 
@@ -110,7 +110,7 @@ body {
 
 .szczegoly-ksiazki {
   display: flex;
-  gap: 35px;
+  gap: 15px;
   align-items: flex-start;
   padding: 30px;
 }
@@ -167,7 +167,7 @@ body {
 /* Wyszukiwarka             */
 
 .wyszukiwarka input {
-  width: 70%;
+  width: 75%;
   margin: 10px;
   padding: 12px 15px;
   font-size: 1.2rem;
@@ -317,8 +317,8 @@ body {
 
 
   .szczegoly-ksiazki .info p {
-    margin-bottom: 10px;  /* Przestrzeń między akapitami */
-    line-height: 1.6;     /* Ustawienie większej przestrzeni w linii */
+    margin-bottom: 5px;  
+    line-height: 1.2;     
   }
   
 }
