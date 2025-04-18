@@ -81,7 +81,6 @@ body {
 
 .lista-ksiazek {
   display: grid;
-  /* Na dużych ekranach 6 kolumn (rzędu) */
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   padding: 20px;
@@ -103,10 +102,10 @@ body {
   border-radius: 10px;
 }
 
-/* Opis pod miniaturą książki (max ~3 linijki) */
+/* Opis pod miniaturą książki */
 .ksiazka .opis {
   margin: 10px 0;
-  max-height: 4.5em;       /* ~3 linijki tekstu */
+  max-height: 3.0em;       
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1.5;
