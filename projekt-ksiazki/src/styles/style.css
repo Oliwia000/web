@@ -11,7 +11,7 @@ body {
 
 .header-banner {
   width: 100%;
-  background-color: #8B4513; /* Brązowy nagłówek */
+  background-color: #8B4513; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -22,7 +22,7 @@ body {
 /* Górne menu nawigacji */
 
 .nawigacja {
-  background-color: #A0522D; /* Ciemny brąz w menu */
+  background-color: #A0522D; 
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,7 @@ body {
 }
 
 .nawigacja a:hover {
-  background-color: #D2691E; /* Jaśniejszy brąz przy hover */
+  background-color: #D2691E; 
   transform: scale(1.05);
 }
 
