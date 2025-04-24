@@ -1061,5 +1061,24 @@ export const wszystkieKsiazki = [
   opis: "Z nizin społecznych do koszykarskiego raju. Inspirująca droga Carmelo Anthony’ego do NBA.=Dorastał na Brooklynie, w dzielnicy nazywanej w latach 80. „amerykańską stolicą cracku”. Jako dziecko codziennie z okna mieszkania obserwował, jak jego bracia i kuzyn Luck toczą boje na boisku. Ale ze względu na środowisko, w którym się wychowywał, zawodowa gra w koszykówkę wydawała mu się niedosięgłym marzeniem. Nie lepiej było po przeprowadzce do Baltimore, gdzie królowały przemoc, narkotyki i bezprawie. Wyrwanie się z takiego miejsca graniczyło z cudem. Jemu się udało.=Mimo przedwczesnej śmierci ukochanych osób, problemów w liceum, w którym miał przeciwko sobie dyrektora, przetrwał i dołączył do koszykarskiej elity. Swoje wysiłki spuentował mocnymi słowami: „Wielki sukces trzeba osiągnąć wbrew statystyce i jednocześnie nie dać się zabić”.=Wielokrotnie odarty z godności i pozbawiony nadziei na lepsze jutro, Carmelo Anthony dostał się do NBA w tym samym czasie, co m.in. LeBron James, Dwyane Wade i Chris Bosh. Dokonał tego na własnych warunkach. W Bez obietnic opowiada o pokonywaniu przeciwności losu, o kozłowaniu między większymi i silniejszymi rywalami oraz unikaniu błędów ojczyma, kuzyna i rówieśników, uzależnionych od heroiny i alkoholu.=Koszykówka okazała się dla „Melo” azylem i trampoliną do lepszego świata. A on sam stał się inspiracją dla milionów dzieciaków. ",
   okladka: "/images/bezobietnic.jpg",
 },
-
+{
+  id: 99,
+  tytul: "Szpetni czterdziestoletni ",
+  autor: "Agnieszka Osiecka",
+  wydawnictwo: "Prószyński i S-ka",
+  cykl: null,
+  kategorie: ["Biografia"],
+  opis: "Młodość Agnieszki Osieckiej przypadła na lata pięćdziesiąte, odwilż i październik 1956 roku. W Szpetnych czterdziestoletnich przybliża nam niezwykłą atmosferę tamtych czasów. Jazz i wykopki, zbigniew Cybulski i Marian Eile, łódzka Filmówka i Piwnica pod Baranami –, prywatny leksykon Osieckiej to barwny zbiór zjawisk, postaci i miejsc ważnych dla niej samej i dla ówczesnych pięknych dwudziestoletnich .=Agnieszka Osiecka skończyła pisać Szpetnych czterdziestoletnich na początku stanu wojennego, w kwietniu 1982 roku. Pierwsze wydanie, okrojone przez cenzurę, ukazało się w 1985 roku. Dziś oddajemy do rąk Czytelników, książkę uzupełnioną o usunięte wówczas fragmenty, zdjęcia i rysunki. ",
+  okladka: "/images/osieckaszep.jpg",
+},
+{
+  id: 100,
+  tytul: "Wojtek Fibak. Gem, set, życie",
+  autor: "Wojciech Fibak, Wojciech Kukuła",
+  wydawnictwo: "",
+  cykl: null,
+  kategorie: ["Biografia"],
+  opis: "",
+  okladka: "/images/.jpg",
+},
 ];
